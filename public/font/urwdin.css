@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'URW DIN';
+    src: local('URW DIN Black'), local('URWDIN-Black'),
+        url('/font/urwdin/URWDIN-Black.woff2') format('woff2'),
+        url('/font/urwdin/URWDIN-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'URW DIN';
+    src: local('URW DIN Black Italic'), local('URWDIN-BlackItalic'),
+        url('/font/urwdin/URWDIN-BlackItalic.woff2') format('woff2'),
+        url('/font/urwdin/URWDIN-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'URW DIN';
+    src: local('URW DIN Bold'), local('URWDIN-Bold'),
+        url('/font/urwdin/URWDIN-Bold.woff2') format('woff2'),
+        url('/font/urwdin/URWDIN-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'URW DIN';
+    src: local('URW DIN Bold Italic'), local('URWDIN-BoldItalic'),
+        url('/font/urwdin/URWDIN-BoldItalic.woff2') format('woff2'),
+        url('/font/urwdin/URWDIN-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'URW DIN';
+    src: local('URW DIN Demi'), local('URWDIN-Demi'),
+        url('/font/urwdin/URWDIN-Demi.woff2') format('woff2'),
+        url('/font/urwdin/URWDIN-Demi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'URW DIN';
+    src: local('URW DIN Demi Italic'), local('URWDIN-DemiItalic'),
+        url('/font/urwdin/URWDIN-DemiItalic.woff2') format('woff2'),
+        url('/font/urwdin/URWDIN-DemiItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'URW DIN';
+    src: local('URW DIN Italic'), local('URWDIN-Italic'),
+        url('/font/urwdin/URWDIN-Italic.woff2') format('woff2'),
+        url('/font/urwdin/URWDIN-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'URW DIN';
+    src: local('URW DIN Light Italic'), local('URWDIN-LightItalic'),
+        url('/font/urwdin/URWDIN-LightItalic.woff2') format('woff2'),
+        url('/font/urwdin/URWDIN-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'URW DIN';
+    src: local('URW DIN Light'), local('URWDIN-Light'),
+        url('/font/urwdin/URWDIN-Light.woff2') format('woff2'),
+        url('/font/urwdin/URWDIN-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'URW DIN';
+    src: local('URW DIN Medium'), local('URWDIN-Medium'),
+        url('/font/urwdin/URWDIN-Medium.woff2') format('woff2'),
+        url('/font/urwdin/URWDIN-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'URW DIN';
+    src: local('URW DIN Thin'), local('URWDIN-Thin'),
+        url('/font/urwdin/URWDIN-Thin.woff2') format('woff2'),
+        url('/font/urwdin/URWDIN-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'URW DIN';
+    src: local('URW DIN Medium Italic'), local('URWDIN-MediumItalic'),
+        url('/font/urwdin/URWDIN-MediumItalic.woff2') format('woff2'),
+        url('/font/urwdin/URWDIN-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'URW DIN';
+    src: local('URW DIN Regular'), local('URWDIN-Regular'),
+        url('/font/urwdin/URWDIN-Regular.woff2') format('woff2'),
+        url('/font/urwdin/URWDIN-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'URW DIN';
+    src: local('URW DIN XLight'), local('URWDIN-XLight'),
+        url('/font/urwdin/URWDIN-XLight.woff2') format('woff2'),
+        url('/font/urwdin/URWDIN-XLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'URW DIN';
+    src: local('URW DIN Thin Italic'), local('URWDIN-ThinItalic'),
+        url('/font/urwdin/URWDIN-ThinItalic.woff2') format('woff2'),
+        url('/font/urwdin/URWDIN-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'URW DIN';
+    src: local('URW DIN XLight Italic'), local('URWDIN-XLightItalic'),
+        url('/font/urwdin/URWDIN-XLightItalic.woff2') format('woff2'),
+        url('/font/urwdin/URWDIN-XLightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+

@@ -1,0 +1,103 @@
+@import '/styles/variables';
+
+.header {
+    position: relative;
+    width: 100vw;
+    height: 20rem;
+    object-fit: cover;
+    margin: 0 calc(50% - 50vw);
+}
+.tmb,.tmb * {
+    width: 100vw;
+    height: 20rem;
+    object-fit: cover;
+}
+.h1 {
+    font-size: 3rem;
+    letter-spacing: .1em;
+    max-width: 70vw;
+    overflow-wrap: break-word;
+    word-break: keep-all;
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    a {
+        color: #fff;
+        display: inline;
+        padding: .1em .3em;
+        background: #000;
+        box-decoration-break: clone;
+        line-height: 1.7;
+        box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0);
+        transition: .1s;
+    }
+}
+.meta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 3em;
+    font-size: 1rem;
+    transform: translateY(-50%);
+    @media (max-width: 600px) {
+        font-size: 1.5rem;
+    }
+}
+.meta_date,.meta_author {
+    font-size: 1em;
+    font-weight: bold;
+    background: #000;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+}
+.meta_date {
+    transform: translate(-110%, -50%);
+    padding: .3em 2em .3em 1em;
+}
+.meta_author {
+    transform: translate(10%, -50%);
+    padding: .3em 1rem .3em 2em;
+}
+.meta_author_wrap {
+    width: 4em;
+    height: 4em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.meta_author_img {
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+    background: #f13245;
+    display: block;
+}
+.main {
+    margin-top: 6rem;
+    article {
+        max-width: 800px;
+        margin: auto;
+        padding: .5em;
+    }
+    p {
+        line-height: 1.5;
+        margin-bottom: 1.3em;
+    }
+    ul, ol {
+        margin: 2em 0;
+        li {
+            line-height: 1.7; /*文の行高*/
+            display: flex;
+            &::before {
+                content: "⚫︎";
+                color: #f13245;
+                display: block;
+                min-width: 1.5em;
+            }
+        }
+    }
+}

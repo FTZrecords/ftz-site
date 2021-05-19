@@ -1,0 +1,23 @@
+@import '/styles/variables';
+
+.main {
+    margin-top: 6rem;
+}
+.h3 {
+    font-family: 'URW DIN';
+    transform:rotate(-90deg);
+    height: 1em;
+    overflow: hidden;
+    position: absolute;
+    top: 25%;
+    left: -4%;
+    text-align: center;
+    z-index: -1;
+}
+.zine_list {
+    margin-bottom: 1rem;
+    position: relative;
+    ul {
+        padding: 1rem calc(50vw - 50%) 1rem calc(50vw - 50% + 4rem);
+    }
+}

@@ -1,0 +1,85 @@
+/* https://ionicframework.jp/docs/theming/color-generator/ */
+// https://higemura.com/blog/programming/dark-mode-css-variables-01
+/* Functions */
+// HEX形式のカラーコードをRGBに変換する
+@function hexToRGB($hex) {
+  @return red($hex), green($hex), blue($hex);
+}
+// CSS変数をRGBA関数で使えるようにする
+@function getColor($color_name, $alpha: 1) {
+  @return rgba(var(#{$color_name}), $alpha);
+}
+
+/* Sass Variables */
+// Light Theme Colors
+$theme-colors: (
+  primary: #333333,
+  secondary: #cccccc,
+  success: #16b43b,
+  warning: #f8c11a,
+  danger: #f13245,
+  background: #000,
+  base: #f7f7f7,
+);
+// Dark Theme Colors
+$dark-theme-colors: (
+  primary: #f7f7f7,
+  secondary: #cccccc,
+  success: #33e65d,
+  warning: #f1c339,
+  danger: #f74254,
+  background: #1a1a1a,
+  base: #333333,
+);
+/* CSS Variables */
+:root {
+  @each $key, $color in $theme-colors {
+    --color-#{$key}: #{hexToRGB($color)};
+  }
+  &[data-theme='dark'] {
+    @each $key, $color in $dark-theme-colors {
+      --color-#{$key}: #{hexToRGB($color)};
+    }
+  }
+}
+
+
+main,aside {
+  animation: fadeup 1s cubic-bezier(0.33, 1, 0.68, 1) 1 forwards;
+  // background: getColor(--color-background);
+}
+  
+@keyframes fadeup {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+    
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@font-face {
+  font-family: 'URW DIN';
+  src: local('URW DIN Black'), local('URWDIN-Black'),
+      url('/font/urwdin/URWDIN-Black.woff2') format('woff2'),
+      url('/font/urwdin/URWDIN-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'URW DIN';
+  src: local('URW DIN Demi'), local('URWDIN-Demi'),
+      url('/font/urwdin/URWDIN-Demi.woff2') format('woff2'),
+      url('/font/urwdin/URWDIN-Demi.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

@@ -45,3 +45,5 @@ fields:
     schema:
       format: markdown
   label: 趣旨
+pages:
+- content/zine/interview/しょごみテスト.md

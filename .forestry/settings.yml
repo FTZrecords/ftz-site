@@ -11,8 +11,8 @@ sections:
   match: "*"
   new_doc_ext: md
 - type: directory
-  path: content/blog
-  label: ブログ
+  path: content/zine/interview
+  label: 'Zine: インタビュー'
   create: documents
   match: "*"
   new_doc_ext: md

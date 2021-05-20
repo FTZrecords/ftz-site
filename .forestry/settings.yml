@@ -27,13 +27,13 @@ sections:
   label: Zine:コラム
   create: documents
   match: "*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: directory
   path: content/zine/playlist
   label: Zine:プレイリスト
   create: documents
   match: "*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 upload_dir: public/img
 public_path: "/img"
 front_matter_path: ''

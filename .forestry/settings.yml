@@ -5,6 +5,12 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: content/news
+  label: ニュース
+  create: documents
+  match: "*"
+  new_doc_ext: md
+- type: directory
   path: content/artist
   label: アーティスト
   create: documents
@@ -12,16 +18,22 @@ sections:
   new_doc_ext: md
 - type: directory
   path: content/zine/interview
-  label: 'Zine: インタビュー'
+  label: Zine:インタビュー
   create: documents
   match: "*"
   new_doc_ext: md
 - type: directory
-  path: content/news
-  label: ニュース
+  path: content/zine/column
+  label: Zine:コラム
   create: documents
   match: "*"
-  new_doc_ext: md
+  new_doc_ext: ".md"
+- type: directory
+  path: content/zine/playlist
+  label: Zine:プレイリスト
+  create: documents
+  match: "*"
+  new_doc_ext: ".md"
 upload_dir: public/img
 public_path: "/img"
 front_matter_path: ''

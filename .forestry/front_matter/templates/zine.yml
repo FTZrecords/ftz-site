@@ -1,4 +1,47 @@
 ---
 label: Zine
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: タイトル
+  description: "タイトルです。\uFEFF"
+- name: date
+  type: datetime
+  label: 日付
+  description: ''
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: tmb
+  type: file
+  config:
+    maxSize: 64
+  label: サムネイル
+- name: author
+  type: select
+  default: ''
+  config:
+    required: true
+    options:
+    - コンパルしょごみ
+    - りお
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: 著者
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: 趣旨

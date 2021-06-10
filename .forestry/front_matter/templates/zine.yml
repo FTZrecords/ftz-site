@@ -28,6 +28,8 @@ fields:
   config:
     required: true
     options:
+    - FTZ編集部
+    - Kakka
     - コンパルしょごみ
     - りお
     source:

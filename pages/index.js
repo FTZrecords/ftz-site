@@ -1,14 +1,14 @@
 import React from 'react'
+
 import Head from 'components/head';
+import Header from 'components/zine-header';
+import Footer from 'components/footer';
+
 import matter from "gray-matter";
 import Link from "next/link";
 import Image from "next/image"
 
 import index from 'styles/index.module.scss'
-import top from 'styles/top.module.scss'
-
-import Header from 'components/top-header';
-import Footer from 'components/footer';
 
 function getStringFromDate(date) {
 	var year_str = date.getFullYear();
@@ -19,13 +19,9 @@ function getStringFromDate(date) {
 	return year_str+"."+month_str+"."+day_str;
 }
 
-const Index = ({ newsData, artistData,columnData, interviewData, playlistData, title, description }) => {
+const Index = ({ columnData, interviewData, playlistData, newsData,artistData, title, description }) => {
 
-  const newsRealData = newsData.map((news) => matter(news));
-  const newsListItems = newsRealData.map((newsListItem) => newsListItem.data);
-
-  const artistRealData = artistData.map((artist) => matter(artist));
-  const artistListItems = artistRealData.map((artistListItem) => artistListItem.data);
+  const newsListItems = newsData.map((news) => matter(news)).map((newsListItem) => newsListItem.data);
 
   const columnListItems = columnData.map((column) => matter(column)).map((columnListItem) => columnListItem.data);
 
@@ -33,10 +29,21 @@ const Index = ({ newsData, artistData,columnData, interviewData, playlistData, t
 
   const playlistListItems = playlistData.map((playlist) => matter(playlist)).map((playlistListItem) => playlistListItem.data);
 
+  const artistListItems = artistData.map((artist) => matter(artist)).map((artistListItem) => artistListItem.data);
+
   return (
     <>
+      <Head
+        title="FTZine｜FTZrecordsによる"
+        description={description}
+        image={
+          "https://qiita-user-profile-images.imgix.net/https%3A%2F%2Flh3.googleusercontent.com%2F-BUmWankl_aQ%2FAAAAAAAAAAI%2FAAAAAAAADys%2F8oi87glPMLA%2Fphoto.jpg%3Fsz%3D50?ixlib=rb-1.2.2&auto=compress%2Cformat&lossless=0&w=300&s=649d309c71e365e6fc6d6b6d205c3710"
+        }
+        url={"https://qiita.com/shinshin86"}
+      />
 
       <Header />
+
       <main className={index.main}>
         <h2 className={index.h2}>
           News<small>　最新情報</small>
@@ -54,9 +61,89 @@ const Index = ({ newsData, artistData,columnData, interviewData, playlistData, t
           ))}
         </ul>
         <h2 className={index.h2}>
-          Playlist​<small>　プレイリスト</small>
+          INTERVIEW<small>　インタビュー</small>
         </h2>
-        ​ <p>FTZ recordsリリースの楽曲を紹介！</p>
+        <ul className={index.list}>
+          {interviewListItems.map((interview, i) => (
+            <li key={i} className={index.list_post}>
+              <Link href={`/zine/interview/${interview.slug}`}>
+                <a>
+                  <div className={index.list_img}>
+                    <Image
+                      src={interview.tmb}
+                      alt={interview.title + "のサムネイル"}
+                      height="160"
+                      width="300"
+                      objectFit={"cover"}
+                      decoding="async"
+                      loading="lazy"
+                    />
+                  </div>
+                  <h5 className={index.list_title}>
+                    <span>{interview.title}</span>
+                  </h5>
+                </a>
+              </Link>
+            </li>
+          ))}
+        </ul>
+
+        <h2 className={index.h2}>
+          COLUMN<small>　コラム</small>
+        </h2>
+        <ul className={index.list}>
+          {columnListItems.map((column, i) => (
+            <li key={i} className={index.list_post}>
+              <Link href={`/zine/column/${column.slug}`}>
+                <a>
+                  <div className={index.list_img}>
+                    <Image
+                      src={column.tmb}
+                      alt={column.title + "のサムネイル"}
+                      height="160"
+                      width="300"
+                      objectFit={"cover"}
+                      decoding="async"
+                      loading="lazy"
+                    />
+                  </div>
+                  <h5 className={index.list_title}>
+                    <span>{column.title}</span>
+                  </h5>
+                </a>
+              </Link>
+            </li>
+          ))}
+        </ul>
+
+        <h2 className={index.h2}>
+          PLAYLIST<small>　プレイリスト</small>
+        </h2>
+        <ul className={index.list}>
+          {playlistListItems.map((playlist, i) => (
+            <li key={i} className={index.list_post}>
+              <Link href={`/zine/playlist/${playlist.slug}`}>
+                <a>
+                  <div className={index.list_img}>
+                    <Image
+                      src={playlist.tmb}
+                      alt={playlist.title + "のサムネイル"}
+                      height="160"
+                      width="300"
+                      objectFit={"cover"}
+                      decoding="async"
+                      loading="lazy"
+                    />
+                  </div>
+                  <h5 className={index.list_title}>
+                    <span>{playlist.title}</span>
+                  </h5>
+                </a>
+              </Link>
+            </li>
+          ))}
+        </ul>
+        
         <h2 className={index.h2}>
           Artists<small>　アーティスト</small>
         </h2>
@@ -75,67 +162,9 @@ const Index = ({ newsData, artistData,columnData, interviewData, playlistData, t
             </li>
           ))}
         </ul>
-        <h2 className={index.h2}>
-          <Link href={`/zine`}>
-            <a>ZINE<small>　ジン</small></a>
-          </Link>
-        </h2>
 
-        <div className={top.zine_list}>
-          <h3 className={top.h3}>INTERVIEW</h3>
-          <ul className={index.list}>
-            {interviewListItems.map((interview, i) => (
-              <li key={i} className={index.list_post}>
-                <Link href={`/zine/interview/${interview.slug}`}>
-                  <a>
-                    <div className={index.list_img}>
-                      <Image src={interview.tmb} alt={interview.title+"のサムネイル"} height="160" width="300" objectFit={"cover"} decoding="async" loading="lazy" />
-                    </div>
-                    <h5 className={index.list_title}><span>{interview.title}</span></h5>
-                  </a>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        <div className={top.zine_list}>
-          <h3 className={top.h3}>COLUMN</h3>
-          <ul className={index.list}>
-            {columnListItems.map((column, i) => (
-              <li key={i} className={index.list_post}>
-                <Link href={`/zine/column/${column.slug}`}>
-                  <a>
-                    <div className={index.list_img}>
-                      <Image src={column.tmb} alt={column.title+"のサムネイル"} height="160" width="300" objectFit={"cover"} decoding="async" loading="lazy" />
-                    </div>
-                    <h5 className={index.list_title}><span>{column.title}</span></h5>
-                  </a>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        <div className={top.zine_list}>
-          <h3 className={top.h3}>PLAYLIST</h3>
-          <ul className={index.list}>
-            {playlistListItems.map((playlist, i) => (
-              <li key={i} className={index.list_post}>
-                <Link href={`/zine/playlist/${playlist.slug}`}>
-                  <a>
-                    <div className={index.list_img}>
-                      <Image src={playlist.tmb} alt={playlist.title+"のサムネイル"} height="160" width="300" objectFit={"cover"} decoding="async" loading="lazy" />
-                    </div>
-                    <h5 className={index.list_title}><span>{playlist.title}</span></h5>
-                  </a>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
       </main>
-      
+
       <Footer />
     </>
   );
@@ -147,22 +176,11 @@ export async function getStaticProps() {
   const siteData = await import(`config.json`);
   const fs = require("fs");
 
-  const newsFiles = fs.readdirSync(`content/news`, "utf-8");
-  const newss = newsFiles.filter((fn) => fn.endsWith(".md"));
+  const newss = fs.readdirSync(`content/news`, "utf-8").filter((fn) => fn.endsWith(".md"));
   const newsData = newss.map((news) => {
-    const newsPath = `content/news/${news}`;
-    const newsRawContent = fs.readFileSync(newsPath, { encoding: "utf-8", });
+    const newsRawContent = fs.readFileSync(`content/news/${news}`, { encoding: "utf-8", });
     const newsEditedContent = newsRawContent.slice(0, 3) + "\nslug: " + { news }.news.slice(0, -3) + "\n" + newsRawContent.slice(3);
     return newsEditedContent;
-  });
-
-  const artistFiles = fs.readdirSync(`content/artist`, "utf-8");
-  const artists = artistFiles.filter((fn) => fn.endsWith(".md"));
-  const artistData = artists.map((artist) => {
-    const artistPath = `content/artist/${artist}`;
-    const artistRawContent = fs.readFileSync(artistPath, { encoding: "utf-8", });
-    const artistEditedContent = artistRawContent.slice(0, 3) + "\nslug: " + { artist }.artist.slice(0, -3) + "\n" + artistRawContent.slice(3);
-    return artistEditedContent;
   });
 
   const columns = fs.readdirSync(`content/zine/column`, "utf-8").filter((fn) => fn.endsWith(".md"));
@@ -186,9 +204,16 @@ export async function getStaticProps() {
     return playlistEditedContent;
   });
 
+  const artists = fs.readdirSync(`content/artist`, "utf-8").filter((fn) => fn.endsWith(".md"));
+  const artistData = artists.map((artist) => {
+    const artistRawContent = fs.readFileSync(`content/artist/${artist}`, { encoding: "utf-8", });
+    const artistEditedContent = artistRawContent.slice(0, 3) + "\nslug: " + { artist }.artist.slice(0, -3) + "\n" + artistRawContent.slice(3);
+    return artistEditedContent;
+  });
+
   return {
     props: {
-      newsData,artistData,columnData, interviewData, playlistData,
+      columnData, interviewData, playlistData, newsData, artistData,
       title: siteData.default.title,
       description: siteData.default.description,
     },

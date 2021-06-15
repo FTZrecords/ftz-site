@@ -48,6 +48,7 @@ fields:
       format: markdown
   label: 趣旨
 pages:
+- content/artist/kinail.md
 - content/news/kinail-ftz-records.md
 - content/zine/column/spotify.md
 - content/zine/interview/kinail-x-som-ssw-my-wave.md

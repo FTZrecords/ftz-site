@@ -48,6 +48,7 @@ fields:
       format: markdown
   label: 趣旨
 pages:
+- content/artist/kakka.md
 - content/artist/kinail.md
 - content/artist/weekday-surgeon.md
 - content/news/kinail-ftz-records.md

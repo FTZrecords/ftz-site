@@ -1,7 +1,7 @@
 ---
 title: Spotifyのブランドストーリー
 date: 2020-11-26T00:00:00+09:00
-tmb: ''
+tmb: "/img/2021/06/15/picture_pc_4d28a5761d645aa2723d18459e95cd06.png"
 author: Kakka
 description: Spotifyは、世界で4000万以上もの曲へのアクセスを提供するデジタル音楽配信サービスである。そんなSpotifyのブランドストーリーを考えてみようと思う。
 

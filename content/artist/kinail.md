@@ -6,6 +6,8 @@ author: FTZ編集部
 description: Producer, Composer
 
 ---
+![](/img/2021/06/15/itd646999.jpg)
+
 In September of 2020, he joined FTZ records and began his full-fledged activities. He handles everything from composition to arrangement and mixing himself. In addition to his original music using samplers, he also produces and remixes tracks for a variety of artists regardless of genre.
 
 In May 2020, he released "My Wave" with SSW Som. He is currently active in track production both in Japan and abroad, as well as producing music and performing as a DJ. The singles he has released so far have been included in the official playlists of Spotify and AWA, and have reached the top of the POPS ranking on Taiwan's StreetVoice.

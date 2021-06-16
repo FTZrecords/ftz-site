@@ -1,6 +1,6 @@
 ---
-title: "Kinail×Som、気鋭のトラックメイカーとSSWによるコラボ作品“My Wave”の制作秘話"
-date: 2021-07-14T00:00:00+09:00
+title: Kinail×Som、気鋭のTrackmakerとSSWによるコラボ“My Wave”の制作秘話
+date: 2021-07-14T00:00:00.000+09:00
 tmb: "/img/2021/06/15/2021-05-04-15-25-47.png"
 author: FTZ編集部
 description: |-

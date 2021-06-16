@@ -39,7 +39,6 @@ const Index = ({ columnData, interviewData, playlistData, newsData,artistData, t
         image={
           "https://qiita-user-profile-images.imgix.net/https%3A%2F%2Flh3.googleusercontent.com%2F-BUmWankl_aQ%2FAAAAAAAAAAI%2FAAAAAAAADys%2F8oi87glPMLA%2Fphoto.jpg%3Fsz%3D50?ixlib=rb-1.2.2&auto=compress%2Cformat&lossless=0&w=300&s=649d309c71e365e6fc6d6b6d205c3710"
         }
-        url={"https://qiita.com/shinshin86"}
       />
 
       <Header />
@@ -61,7 +60,7 @@ const Index = ({ columnData, interviewData, playlistData, newsData,artistData, t
           ))}
         </ul>
         <h2 className={index.h2}>
-          INTERVIEW<small>　インタビュー</small>
+          Interview<small>　インタビュー</small>
         </h2>
         <ul className={index.list}>
           {interviewListItems.map((interview, i) => (
@@ -89,7 +88,7 @@ const Index = ({ columnData, interviewData, playlistData, newsData,artistData, t
         </ul>
 
         <h2 className={index.h2}>
-          COLUMN<small>　コラム</small>
+          Column<small>　コラム</small>
         </h2>
         <ul className={index.list}>
           {columnListItems.map((column, i) => (
@@ -117,7 +116,7 @@ const Index = ({ columnData, interviewData, playlistData, newsData,artistData, t
         </ul>
 
         <h2 className={index.h2}>
-          PLAYLIST<small>　プレイリスト</small>
+          Playlist<small>　プレイリスト</small>
         </h2>
         <ul className={index.list}>
           {playlistListItems.map((playlist, i) => (

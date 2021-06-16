@@ -1,6 +1,9 @@
 import Head from 'next/head';
 
 const Named = ({ title, description, image, url }) => {
+  if (!url) {
+    url = process.env.NEXT_PUBLIC_baseUrl
+  }
   return (
     <Head>
       <meta charSet="utf-8" />
@@ -12,7 +15,7 @@ const Named = ({ title, description, image, url }) => {
 
       <title>{title}</title>
       <meta property="og:title" content={title} />
-
+      
       <meta property="og:url" content={url} />
       <link rel="canonical" href={url} />
 
@@ -20,18 +23,27 @@ const Named = ({ title, description, image, url }) => {
 
       <meta property="og:image" content={image} />
 
-      <meta property="og:site_name" content="サイト名が入ります。" />
-
-      <meta property="fb:app_id" content="App-IDがここに入ります。" />
-      <meta property="fb:admins" content="adminIDがここに入ります。" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta
-        name="twitter:site"
-        content="Twitterカードのフッターで使用されるウェブサイトの@ユーザー名"
+
+      <link
+        rel="prefetch"
+        href={"https://www.googletagmanager.com/gtag/js?id=" + process.env.NEXT_PUBLIC_ga}
+        as="script"
       />
-      <meta
-        name="twitter:creator"
-        content="コンテンツ作成者/著者の@ユーザー名"
+      <script
+        async
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_ga}`}
+      />
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+            
+              gtag('config', '${process.env.NEXT_PUBLIC_ga}');
+          `,
+        }}
       />
     </Head>
   );

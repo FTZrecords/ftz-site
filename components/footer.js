@@ -9,7 +9,7 @@ class Footer extends React.Component {
       <>
         <aside>
           <h2 className={index.h2}>
-            CONTACT<small>　お問い合わせ</small>
+            Contact<small>　お問い合わせ</small>
           </h2>
           <p className={index.contact_form}>
             一緒に音楽の楽しさを伝えていくレーベルをお探しですか？FTZ

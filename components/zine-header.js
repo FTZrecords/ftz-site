@@ -7,7 +7,7 @@ class Header extends React.Component {
     return (
         <header className={index.header}>
         <h1>
-          <Link href="/zine"><a><img src="/zine/logo.svg"></img></a></Link>
+          <Link href="/"><a><img src="/zine/logo.svg"></img></a></Link>
           <small><Link href="/"><a>by FTZrecords</a></Link></small>
         </h1>
         <input type="checkbox" id="vehicle1" name="vehicle1" className={index.menu_input} />

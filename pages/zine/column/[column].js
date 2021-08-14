@@ -127,10 +127,10 @@ const Blog = ({ content, data }) => {
 export default Blog;
 
 Blog.getInitialProps = async (context) => {
-  const { playlist } = context.query;
-  // console.log(playlist);
+  const { column } = context.query;
+  // console.log(column);
   // Import our .md file using the `slug` from the URL
-  const content = await import(`content/zine/playlist/${playlist}.md`);
+  const content = await import(`content/zine/column/${column}.md`);
   const data = grayMatter(content.default);
 
   return { ...data };

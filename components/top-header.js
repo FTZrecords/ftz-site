@@ -29,7 +29,7 @@ class Header extends React.Component {
             </li>
             <li>
               <Link href="/zine">
-                <a><small>じん</small>Zine</a>
+                <a><small>じん</small>Member</a>
               </Link>
             </li>
             <li>

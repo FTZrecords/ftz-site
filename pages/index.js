@@ -239,7 +239,7 @@ export async function getStaticProps() {
   const sliderList = [
     "zine/interview/kinail-x-som-ssw-my-wave.md",
     "zine/column/chooning.md",
-    "zine/playlist/chooning.md",
+    "zine/playlist/ftzone.md",
   ];
   const sliderData = sliderList.map((slider) => {
     const sliderRawContent = fs.readFileSync(`content/${slider}`, {

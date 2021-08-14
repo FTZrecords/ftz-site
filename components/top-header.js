@@ -28,8 +28,8 @@ class Header extends React.Component {
               </Link>
             </li>
             <li>
-              <Link href="/zine">
-                <a><small>じん</small>Member</a>
+              <Link href="/member">
+                <a><small>メンバー</small>Member</a>
               </Link>
             </li>
             <li>

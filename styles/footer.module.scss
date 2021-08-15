@@ -20,7 +20,7 @@
         top: 0;
         left: 0;
         width: 120%;
-        height: 80%;
+        height: 120%;
         margin: 3% -10% 0;
     }
     &:before {
@@ -60,7 +60,7 @@
         display: flex;
         justify-content: space-between;
         > * {
-            width: calc(100%/3);
+            width: calc(100%/2);
             &:last-child {
                 display: flex;
                 flex-direction: column;

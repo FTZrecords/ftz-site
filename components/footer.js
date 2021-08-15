@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 import Link from "next/link";
-import index from 'styles/index.module.scss'
-import footer from 'styles/footer.module.scss'
+import index from "styles/index.module.scss";
+import footer from "styles/footer.module.scss";
 
 class Footer extends React.Component {
   render() {
@@ -29,18 +29,18 @@ class Footer extends React.Component {
               className={index.name}
               type="text"
               name="name"
-              placeholder="Your Name"
+              placeholder="お名前"
             />
             <input
               className={index.email}
               type="text"
               name="email"
-              placeholder="Your Email"
+              placeholder="メールアドレス"
             />
             <textarea
               className={index.message}
               name="message"
-              placeholder="Message to FTZ"
+              placeholder="お問い合わせ内容"
             ></textarea>
             <button className={index.button} type="submit">
               SUBMIT
@@ -51,23 +51,8 @@ class Footer extends React.Component {
           <div>
             <ul>
               <li>
-                <Link href="/">
-                  <a>TOP - FTZについて</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/news">
-                  <a>News - 最新情報</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/artist">
-                  <a>Artist - 所属アーティスト</a>
-                </Link>
-              </li>
-              <li>
                 <Link href="/zine">
-                  <a>Zine</a>
+                  <a>FTZine - FTZrecordsによるジン</a>
                 </Link>
                 <ul>
                   <li>
@@ -86,6 +71,16 @@ class Footer extends React.Component {
                     </Link>
                   </li>
                 </ul>
+              </li>
+              <li>
+                <Link href="/news">
+                  <a>News - 最新情報</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/artist">
+                  <a>Artist - 所属アーティスト</a>
+                </Link>
               </li>
               <li>
                 <Link href="/contact">

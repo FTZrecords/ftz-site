@@ -14,6 +14,8 @@ import rehypeRaw from "rehype-raw";
 //タイトルタグにジャンプリンクを
 import remarkSlug from "remark-slug";
 import remarkAutolinkHeadings from "remark-autolink-headings";
+//ショートコード
+import directive from "remark-directive";
 
 import Header from "components/zine-header";
 import Footer from "components/footer";
@@ -87,6 +89,7 @@ const Blog = ({ content, data }) => {
               unwrapImages,
               remarkSlug,
               [remarkAutolinkHeadings, { behavior: "wrap" }],
+              directive
             ]}
             rehypePlugins={[
               rehypeRaw

@@ -8,7 +8,7 @@ class Footer extends React.Component {
     return (
       <>
         <aside>
-          <h2 className={index.h2}>
+          <h2 className={index.h2} id="contact">
             Contact<small>　お問い合わせ</small>
           </h2>
           <p className={index.contact_form}>

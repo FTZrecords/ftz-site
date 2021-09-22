@@ -29,7 +29,7 @@ const Index = ({
   interviewData,
   playlistData,
   newsData,
-  artistData,
+  memberData,
 }) => {
   const sliderListItems = sliderData
     .map((slider) => matter(slider))
@@ -46,9 +46,9 @@ const Index = ({
   const playlistListItems = playlistData
     .map((playlist) => matter(playlist))
     .map((playlistListItem) => playlistListItem.data);
-  const artistListItems = artistData
-    .map((artist) => matter(artist))
-    .map((artistListItem) => artistListItem.data);
+  const memberListItems = memberData
+    .map((member) => matter(member))
+    .map((memberListItem) => memberListItem.data);
 
   useEffect(() => {
     const mySiema = new Siema({
@@ -99,6 +99,9 @@ const Index = ({
         <h2 className={index.h2}>
           News<small>　最新情報</small>
         </h2>
+        <p className={index.h2_description}>
+        FTZにまつわる最新情報をチョイス
+        </p>
         <ul>
           {newsListItems.map((news, i) => (
             <li key={i}>
@@ -112,27 +115,35 @@ const Index = ({
           ))}
         </ul>
         <h2 className={index.h2}>
-          Interview<small>　インタビュー</small>
+          Interview<small>　新たな音楽に出会えるインタビュー記事</small>
         </h2>
+        <p className={index.h2_description}>
+        新たな音楽に出会えるインタビュー記事
+        </p>
         <ul className={index.list}>
           {interviewListItems.map((interview, i) => (
             <li key={i} className={index.list_post}>
               <Link href={`/zine/interview/${interview.slug}`}>
                 <a>
-                  <div className={index.list_img}>
-                    <Image
-                      src={interview.tmb}
-                      alt={interview.title + "のサムネイル"}
-                      height="160"
-                      width="300"
-                      objectFit={"cover"}
-                      decoding="async"
-                      loading="lazy"
-                    />
+                  <div className={index.list_tmb}>
+                    <div className={index.list_img}>
+                      <Image
+                        src={interview.tmb}
+                        alt={interview.title + "のサムネイル"}
+                        height="160"
+                        width="300"
+                        objectFit={"cover"}
+                        decoding="async"
+                        loading="lazy"
+                      />
+                    </div>
+                    <h5 className={index.list_title}>
+                      <span>{interview.title}</span>
+                    </h5>
                   </div>
-                  <h5 className={index.list_title}>
-                    <span>{interview.title}</span>
-                  </h5>
+                  <p className={index.list_description}>
+                    {interview.description}
+                  </p>
                 </a>
               </Link>
             </li>
@@ -147,20 +158,23 @@ const Index = ({
             <li key={i} className={index.list_post}>
               <Link href={`/zine/column/${column.slug}`}>
                 <a>
-                  <div className={index.list_img}>
-                    <Image
-                      src={column.tmb}
-                      alt={column.title + "のサムネイル"}
-                      height="160"
-                      width="300"
-                      objectFit={"cover"}
-                      decoding="async"
-                      loading="lazy"
-                    />
+                  <div className={index.list_tmb}>
+                    <div className={index.list_img}>
+                      <Image
+                        src={column.tmb}
+                        alt={column.title + "のサムネイル"}
+                        height="160"
+                        width="300"
+                        objectFit={"cover"}
+                        decoding="async"
+                        loading="lazy"
+                      />
+                    </div>
+                    <h5 className={index.list_title}>
+                      <span>{column.title}</span>
+                    </h5>
                   </div>
-                  <h5 className={index.list_title}>
-                    <span>{column.title}</span>
-                  </h5>
+                  <p className={index.list_description}>{column.description}</p>
                 </a>
               </Link>
             </li>
@@ -170,25 +184,33 @@ const Index = ({
         <h2 className={index.h2}>
           Playlist<small>　プレイリスト</small>
         </h2>
+        <p className={index.h2_description}>
+        次世代のキュレーターが紹介
+        </p>
         <ul className={index.list}>
           {playlistListItems.map((playlist, i) => (
             <li key={i} className={index.list_post}>
               <Link href={`/zine/playlist/${playlist.slug}`}>
                 <a>
-                  <div className={index.list_img}>
-                    <Image
-                      src={playlist.tmb}
-                      alt={playlist.title + "のサムネイル"}
-                      height="160"
-                      width="300"
-                      objectFit={"cover"}
-                      decoding="async"
-                      loading="lazy"
-                    />
+                  <div className={index.list_tmb}>
+                    <div className={index.list_img}>
+                      <Image
+                        src={playlist.tmb}
+                        alt={playlist.title + "のサムネイル"}
+                        height="160"
+                        width="300"
+                        objectFit={"cover"}
+                        decoding="async"
+                        loading="lazy"
+                      />
+                    </div>
+                    <h5 className={index.list_title}>
+                      <span>{playlist.title}</span>
+                    </h5>
                   </div>
-                  <h5 className={index.list_title}>
-                    <span>{playlist.title}</span>
-                  </h5>
+                  <p className={index.list_description}>
+                    {playlist.description}
+                  </p>
                 </a>
               </Link>
             </li>
@@ -196,17 +218,17 @@ const Index = ({
         </ul>
 
         <h2 className={index.h2}>
-          Artists<small>　アーティスト</small>
+          Writer<small>　ライター</small>
         </h2>
         <ul>
-          {artistListItems.map((artist, i) => (
+          {memberListItems.map((member, i) => (
             <li key={i} className={index.artist_list}>
-              <Link href={`/artist/${artist.slug}`}>
+              <Link href={`/member/${member.slug}`}>
                 <a>
                   <div className={index.artist_img}>
                     <Image
-                      src={artist.tmb}
-                      alt={artist.title + "のサムネイル"}
+                      src={"/zine/author/" + member.title + ".jpg"}
+                      alt={member.title + "のサムネイル"}
                       height="160"
                       width="160"
                       objectFit={"cover"}
@@ -215,9 +237,8 @@ const Index = ({
                     />
                   </div>
                   <h5 className={index.artist_title}>
-                    <span>{artist.title}</span>
+                    <span>{member.title}</span>
                   </h5>
-                  {/* <p>{artist.description}</p> */}
                 </a>
               </Link>
             </li>
@@ -320,20 +341,20 @@ export async function getStaticProps() {
     return playlistEditedContent;
   });
 
-  const artists = fs
-    .readdirSync(`content/artist`, "utf-8")
+  const members = fs
+    .readdirSync(`content/member`, "utf-8")
     .filter((fn) => fn.endsWith(".md"));
-  const artistData = artists.map((artist) => {
-    const artistRawContent = fs.readFileSync(`content/artist/${artist}`, {
+  const memberData = members.map((member) => {
+    const memberRawContent = fs.readFileSync(`content/member/${member}`, {
       encoding: "utf-8",
     });
-    const artistEditedContent =
-      artistRawContent.slice(0, 3) +
+    const memberEditedContent =
+      memberRawContent.slice(0, 3) +
       "\nslug: " +
-      { artist }.artist.slice(0, -3) +
+      { member }.member.slice(0, -3) +
       "\n" +
-      artistRawContent.slice(3);
-    return artistEditedContent;
+      memberRawContent.slice(3);
+    return memberEditedContent;
   });
 
   return {
@@ -342,7 +363,7 @@ export async function getStaticProps() {
       interviewData,
       playlistData,
       newsData,
-      artistData,
+      memberData,
       sliderData,
     },
   };

@@ -37,7 +37,7 @@ const Blog = ({ content, data }) => {
 
       <Header />
 
-      <main className={post.main}>
+      <main className={post.zineMain}>
         <div className={post.header}>
           <div className={post.tmb}>
             <Image

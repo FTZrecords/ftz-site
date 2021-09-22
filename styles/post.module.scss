@@ -1,21 +1,22 @@
 @import '/styles/variables';
+$hedaerHight: 25rem;
 
 .header {
     position: relative;
     width: 100vw;
-    height: 20rem;
+    height: $hedaerHight;
     object-fit: cover;
     margin: 0 calc(50% - 50vw);
 }
 .tmb,.tmb * {
     width: 100vw;
-    height: 20rem;
+    height: $hedaerHight;
     object-fit: cover;
 }
 .h1 {
     font-size: 3rem;
     letter-spacing: .1em;
-    max-width: 70vw;
+    max-width: min(20em,95%);
     overflow-wrap: break-word;
     word-break: keep-all;
     position: absolute;
@@ -76,8 +77,8 @@
     background: #f13245;
     display: block;
 }
-.main {
-    margin-top: 6rem;
+.main,.zineMain {
+    margin-top: 9rem;
     article {
         max-width: 800px;
         margin: auto;
@@ -103,4 +104,12 @@
             }
         }
     }
+}
+.zineMain {
+    margin-top: 6rem;
+}
+
+.newsMeta {
+    margin-bottom: 2rem;
+    font-weight: bold;
 }

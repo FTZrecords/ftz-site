@@ -132,8 +132,18 @@
 
 .h2 {
     font-family: 'URW DIN';
-    margin-top: 4rem;
-    margin-bottom:0rem
+    margin-top: 3.5rem;
+    margin-bottom:0rem;
+    small {
+        opacity: 0;
+    }
+}
+.h2_description {
+    font-family: Helvetica, -apple-system, Verdana, Meiryo;
+    color:#000;
+    font-size: .8rem;
+    margin-bottom: 1rem;
+    margin-top: -.3rem;
 }
 
 .list {
@@ -146,7 +156,6 @@
     padding: 1rem calc(50vw - 50%);
 }
 .list_post {
-    position: relative;
     width: 300px;
     margin-right: 2rem;
     &:hover {
@@ -160,7 +169,13 @@
             transform: translateX(7%);
             opacity: .5;
         }
+        .list_description {
+            color:#000;
+        }
     }
+}
+.list_tmb {
+    position: relative;
 }
 .list_title {
     font-size: 1.5rem;
@@ -186,15 +201,26 @@
         transition: .1s;
     }
 }
+.list_description {
+    max-width: 100%;
+    overflow: visible;
+    font-family: Helvetica, -apple-system, Verdana, Meiryo;
+    text-align: justify;
+    color: rgba(#000,.6);
+    font-size: .65rem;
+    @include mq(sp) {
+        font-size: .9rem;
+    }
+    line-height: 1.3em;
+    margin-top: .5rem;
+    transform: translateX(5%);
+    transition: color .1s;
+}
 
 
 .list_img {
     width: 3*6rem;
     height: 1.6*6rem;
-    // @include mq(sp) {
-    //     width: 3*4rem;
-    //     height: 1.6*4rem;
-    // }
     transition: .3s;
     transform: translateX(5%);
     * {

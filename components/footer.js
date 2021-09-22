@@ -83,7 +83,7 @@ class Footer extends React.Component {
                 </Link>
               </li>
               <li>
-                <Link href="/contact">
+                <Link href="https://www.ftzrecords.com/#comp-jxanll648">
                   <a>Contact - お問い合わせ</a>
                 </Link>
               </li>

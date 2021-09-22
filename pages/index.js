@@ -69,7 +69,7 @@ const Index = ({
 
       <Header />
 
-      <main className={index.main}>
+      <main  className={`${index.main} ${index.top}`}>
         <ul className={`${slider.slider} siema`}>
           {sliderListItems.map((e, i) => (
             <li key={i}>
@@ -102,18 +102,36 @@ const Index = ({
         <p className={index.h2_description}>
         FTZにまつわる最新情報をチョイス
         </p>
-        <ul>
+        <ul className={index.list}>
           {newsListItems.map((news, i) => (
-            <li key={i}>
-              <Link href={`/news/${news.slug}`} passHref>
+            <li key={i} className={index.list_post}>
+              <Link href={`/zine/news/${news.slug}`}>
                 <a>
-                  <h5>{news.title}</h5>
-                  <time>{getStringFromDate(news.date)}</time>
+                  <div className={index.list_tmb}>
+                    <div className={index.list_img}>
+                      <Image
+                        src={news.tmb}
+                        alt={news.title + "のサムネイル"}
+                        height="160"
+                        width="300"
+                        objectFit={"cover"}
+                        decoding="async"
+                        loading="lazy"
+                      />
+                    </div>
+                    <h5 className={index.list_title}>
+                      <span>{news.title}</span>
+                    </h5>
+                  </div>
+                  <p className={index.list_description}>
+                    {news.description}
+                  </p>
                 </a>
               </Link>
             </li>
           ))}
         </ul>
+
         <h2 className={index.h2}>
           Interview<small>　新たな音楽に出会えるインタビュー記事</small>
         </h2>

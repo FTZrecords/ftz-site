@@ -1,48 +1,48 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: ""
-webhook_url:
+admin_path: ''
+webhook_url: 
 sections:
-  - type: directory
-    path: content/news
-    label: ニュース
-    create: documents
-    match: "*"
-    new_doc_ext: md
-  - type: directory
-    path: content/artist
-    label: アーティスト
-    create: documents
-    match: "*"
-    new_doc_ext: md
-  - type: directory
-    path: content/member
-    label: メンバー
-    create: documents
-    match: "*"
-    new_doc_ext: md
-  - type: directory
-    path: content/zine/interview
-    label: Zine:インタビュー
-    create: documents
-    match: "*"
-    new_doc_ext: md
-  - type: directory
-    path: content/zine/column
-    label: Zine:コラム
-    create: documents
-    match: "*"
-    new_doc_ext: md
-  - type: directory
-    path: content/zine/playlist
-    label: Zine:プレイリスト
-    create: documents
-    match: "*"
-    new_doc_ext: md
+- type: directory
+  path: content/news
+  label: ニュース
+  create: documents
+  match: "*"
+  new_doc_ext: md
+- type: directory
+  path: content/artist
+  label: アーティスト
+  create: documents
+  match: "*"
+  new_doc_ext: md
+- type: directory
+  path: content/member
+  label: メンバー
+  create: documents
+  match: "*"
+  new_doc_ext: md
+- type: directory
+  path: content/zine/interview
+  label: Zine:インタビュー
+  create: documents
+  match: "*"
+  new_doc_ext: md
+- type: directory
+  path: content/zine/column
+  label: Zine:コラム
+  create: documents
+  match: "*"
+  new_doc_ext: md
+- type: directory
+  path: content/zine/playlist
+  label: Zine:プレイリスト
+  create: documents
+  match: "*"
+  new_doc_ext: md
 upload_dir: public/img
 public_path: "/img"
-front_matter_path: ""
+front_matter_path: ''
 use_front_matter_path: false
 file_template: ":year:/:month:/:day:/:filename:"
 build:

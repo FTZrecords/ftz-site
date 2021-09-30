@@ -96,7 +96,7 @@ const Index = ({
             </li>
           ))}
         </ul>
-        <h2 className={index.h2}>
+        <h2 className={index.h2} id="news">
           News<small>　最新情報</small>
         </h2>
         <p className={index.h2_description}>
@@ -132,7 +132,7 @@ const Index = ({
           ))}
         </ul>
 
-        <h2 className={index.h2}>
+        <h2 className={index.h2} id="interview">
           Interview<small>　新たな音楽に出会えるインタビュー記事</small>
         </h2>
         <p className={index.h2_description}>
@@ -168,9 +168,12 @@ const Index = ({
           ))}
         </ul>
 
-        <h2 className={index.h2}>
+        <h2 className={index.h2} id="column">
           Column<small>　コラム</small>
         </h2>
+        <p className={index.h2_description}>
+        様々な角度から連載コラム
+        </p>
         <ul className={index.list}>
           {columnListItems.map((column, i) => (
             <li key={i} className={index.list_post}>
@@ -199,7 +202,7 @@ const Index = ({
           ))}
         </ul>
 
-        <h2 className={index.h2}>
+        <h2 className={index.h2} id="playlist">
           Playlist<small>　プレイリスト</small>
         </h2>
         <p className={index.h2_description}>

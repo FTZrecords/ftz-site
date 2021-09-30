@@ -36,7 +36,7 @@ class Header extends React.Component {
               </Link>
             </li>
             <li>
-              <Link href="/artist">
+              <Link href="https://www.ftzrecords.com/artist">
                 <a>
                   <small>所属アーティスト</small>Artist
                 </a>

@@ -128,6 +128,9 @@
 }
 .main {
     margin-top: 6rem;
+    width: 100vw;
+    margin: 0 calc(50% - 50vw);
+    padding: 0 3rem;
 }
 
 .h2 {
@@ -156,7 +159,7 @@
     padding: 1rem calc(50vw - 50%);
 }
 .list_post {
-    width: 300px;
+    // width: 300px;
     margin-right: 2rem;
     &:hover {
         .list_title {
@@ -202,12 +205,15 @@
     }
 }
 .list_description {
-    max-width: 100%;
     max-height: 3.8em;
+    width: 18rem;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
     overflow: hidden;
-    // font-family: Helvetica, -apple-system, Verdana, Meiryo;
     text-align: justify;
-    // color: rgba(#000,.6);
+
     font-size: .7rem;
     @include mq(sp) {
         font-size: .9rem;

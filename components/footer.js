@@ -56,41 +56,41 @@ class Footer extends React.Component {
                 </Link>
                 <ul>
                   <li>
-                    <Link href="">
+                    <Link href="/#interview">
                       <a>INTERVIEW　インタビュー</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="">
+                    <Link href="/#column">
                       <a>COLUMN　コラム</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="">
+                    <Link href="/#playlist">
                       <a>PLAYLIST　プレイリスト</a>
                     </Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <Link href="/news">
+                <Link href="/#news">
                   <a>News - 最新情報</a>
                 </Link>
               </li>
               <li>
-                <Link href="/artist">
+                <Link href="https://www.ftzrecords.com/artist">
                   <a>Artist - 所属アーティスト</a>
                 </Link>
               </li>
               <li>
-                <Link href="https://www.ftzrecords.com/#comp-jxanll648">
+                <Link href="https://www.ftzrecords.com/#comp-jxanll648" target="_blank">
                   <a>Contact - お問い合わせ</a>
                 </Link>
               </li>
             </ul>
             <div>
               <span>©︎FTZrecords</span>
-              <a href="//2001y.me">
+              <a href="https://2001y.me"  target="_blank">
                 Designed by <span>2001Y</span>
               </a>
             </div>

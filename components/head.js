@@ -13,6 +13,8 @@ const Named = ({ title, description, image, url }) => {
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="ja_JP" />
 
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5576891772662336" crossorigin="anonymous"></script>
+
       <title>{title}</title>
       <meta property="og:title" content={title} />
       

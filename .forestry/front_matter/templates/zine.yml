@@ -48,10 +48,6 @@ fields:
       format: markdown
   label: 趣旨
 pages:
-- content/artist/com-z.md
-- content/artist/kakka.md
-- content/artist/kinail.md
-- content/artist/mona.md
 - content/news/kinail-ftz-records.md
 - content/zine/column/chooning.md
 - content/zine/column/spotify.md

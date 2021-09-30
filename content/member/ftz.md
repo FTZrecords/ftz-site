@@ -6,4 +6,5 @@ author: 編集部
 description: Trackmaker
 
 ---
-![](/img/2021/06/15/kakka-profile.jpeg)
+
+# FTZ編集部

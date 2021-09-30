@@ -240,7 +240,7 @@ const Index = ({
                 <a>
                   <div className={index.artist_img}>
                     <Image
-                      src={"/zine/author/" + member.title + ".jpg"}
+                      src={member.tmb}
                       alt={member.title + "のサムネイル"}
                       height="160"
                       width="160"

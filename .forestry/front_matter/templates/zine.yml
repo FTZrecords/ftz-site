@@ -48,7 +48,7 @@ fields:
       format: markdown
   label: 趣旨
 pages:
-- content/member/編集部.md
+- content/member/ftz.md
 - content/news/kinail-ftz-records.md
 - content/zine/column/chooning.md
 - content/zine/column/spotify.md

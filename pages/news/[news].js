@@ -14,6 +14,8 @@ import rehypeRaw from "rehype-raw";
 //タイトルタグにジャンプリンクを
 import remarkSlug from "remark-slug";
 import remarkAutolinkHeadings from "remark-autolink-headings";
+//ショートコード
+import directive from "remark-directive";
 
 import Header from "components/zine-header";
 import Footer from "components/footer";
@@ -87,6 +89,7 @@ const Blog = ({ content, data }) => {
               unwrapImages,
               remarkSlug,
               [remarkAutolinkHeadings, { behavior: "wrap" }],
+              directive,
             ]}
             rehypePlugins={[rehypeRaw]}
             components={{
@@ -127,10 +130,10 @@ const Blog = ({ content, data }) => {
 export default Blog;
 
 Blog.getInitialProps = async (context) => {
-  const { column } = context.query;
-  // console.log(column);
+  const { news } = context.query;
+  // console.log(news);
   // Import our .md file using the `slug` from the URL
-  const content = await import(`content/zine/column/${column}.md`);
+  const content = await import(`content/news/${news}.md`);
   const data = grayMatter(content.default);
 
   return { ...data };

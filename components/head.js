@@ -1,8 +1,8 @@
-import Head from 'next/head';
+import Head from "next/head";
 
 const Named = ({ title, description, image, url }) => {
   if (!url) {
-    url = process.env.NEXT_PUBLIC_baseUrl
+    url = process.env.NEXT_PUBLIC_baseUrl;
   }
   return (
     <Head>
@@ -13,11 +13,15 @@ const Named = ({ title, description, image, url }) => {
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="ja_JP" />
 
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5576891772662336" crossorigin="anonymous"></script>
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5576891772662336"
+        crossOrigin="anonymous"
+      ></script>
 
       <title>{title}</title>
       <meta property="og:title" content={title} />
-      
+
       <meta property="og:url" content={url} />
       <link rel="canonical" href={url} />
 
@@ -29,7 +33,10 @@ const Named = ({ title, description, image, url }) => {
 
       <link
         rel="prefetch"
-        href={"https://www.googletagmanager.com/gtag/js?id=" + process.env.NEXT_PUBLIC_ga}
+        href={
+          "https://www.googletagmanager.com/gtag/js?id=" +
+          process.env.NEXT_PUBLIC_ga
+        }
         as="script"
       />
       <script

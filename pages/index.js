@@ -69,7 +69,7 @@ const Index = ({
 
       <Header />
 
-      <main  className={`${index.main} ${index.top}`}>
+      <main className={`${index.main} ${index.top}`}>
         <ul className={`${slider.slider} siema`}>
           {sliderListItems.map((e, i) => (
             <li key={i}>
@@ -99,13 +99,11 @@ const Index = ({
         <h2 className={index.h2} id="news">
           News<small>　最新情報</small>
         </h2>
-        <p className={index.h2_description}>
-        FTZにまつわる最新情報をチョイス
-        </p>
+        <p className={index.h2_description}>FTZにまつわる最新情報をチョイス</p>
         <ul className={index.list}>
           {newsListItems.map((news, i) => (
             <li key={i} className={index.list_post}>
-              <Link href={`/zine/news/${news.slug}`}>
+              <Link href={`/news/${news.slug}`}>
                 <a>
                   <div className={index.list_tmb}>
                     <div className={index.list_img}>
@@ -123,9 +121,7 @@ const Index = ({
                       <span>{news.title}</span>
                     </h5>
                   </div>
-                  <p className={index.list_description}>
-                    {news.description}
-                  </p>
+                  <p className={index.list_description}>{news.description}</p>
                 </a>
               </Link>
             </li>
@@ -136,7 +132,7 @@ const Index = ({
           Interview<small>　新たな音楽に出会えるインタビュー記事</small>
         </h2>
         <p className={index.h2_description}>
-        新たな音楽に出会えるインタビュー記事
+          新たな音楽に出会えるインタビュー記事
         </p>
         <ul className={index.list}>
           {interviewListItems.map((interview, i) => (
@@ -171,9 +167,7 @@ const Index = ({
         <h2 className={index.h2} id="column">
           Column<small>　コラム</small>
         </h2>
-        <p className={index.h2_description}>
-        様々な角度から連載コラム
-        </p>
+        <p className={index.h2_description}>様々な角度から連載コラム</p>
         <ul className={index.list}>
           {columnListItems.map((column, i) => (
             <li key={i} className={index.list_post}>
@@ -205,9 +199,7 @@ const Index = ({
         <h2 className={index.h2} id="playlist">
           Playlist<small>　プレイリスト</small>
         </h2>
-        <p className={index.h2_description}>
-        次世代のキュレーターが紹介
-        </p>
+        <p className={index.h2_description}>次世代のキュレーターが紹介</p>
         <ul className={index.list}>
           {playlistListItems.map((playlist, i) => (
             <li key={i} className={index.list_post}>

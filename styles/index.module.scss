@@ -205,14 +205,14 @@
     }
 }
 .list_description {
-    max-height: 3.8em;
+    // max-height: 3.8em;
     width: 18rem;
 
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
-    overflow: hidden;
     text-align: justify;
+    display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
 
     font-size: .7rem;
     @include mq(sp) {

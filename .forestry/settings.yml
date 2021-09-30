@@ -16,6 +16,8 @@ sections:
   create: documents
   match: "*"
   new_doc_ext: md
+  templates:
+  - zine
 - type: directory
   path: content/member
   label: メンバー

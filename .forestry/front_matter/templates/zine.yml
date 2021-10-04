@@ -49,6 +49,7 @@ fields:
   label: 趣旨
 pages:
 - content/member/ftz.md
+- content/member/kakka.md
 - content/member/しょごみ.md
 - content/news/avipene-all-i-know.md
 - content/news/klee-4-1-film.md

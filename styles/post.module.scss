@@ -85,6 +85,16 @@ $hedaerHight: 25rem;
         padding: .5em;
         iframe {
             max-width: 300px;
+            @media (max-width: 600px) {
+                max-width: 100%;
+            }
+        }
+        a {
+            color: #f13245;
+            border-bottom: solid #f13245 .05em ;
+            &:hover {
+                opacity: .5;
+            }
         }
     }
     p {

@@ -89,7 +89,9 @@ class Footer extends React.Component {
               </li>
             </ul>
             <div>
-              <span>©︎FTZrecords</span>
+              <a href="https://ftzrecords.com/"  target="_blank">
+                <span>©︎FTZrecords</span>
+              </a>
               <a href="https://2001y.me"  target="_blank">
                 Designed by <span>2001Y</span>
               </a>

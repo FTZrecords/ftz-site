@@ -91,9 +91,7 @@ const Blog = ({ content, data }) => {
             rehypePlugins={[rehypeRaw]}
             components={{
               img: (e) => {
-                return (
-                  <Image src={e.src} alt={e.alt} height="200" width="355" />
-                );
+                return <Image src={e.src} alt={e.alt} width={800} height={400} layout={"intrinsic"} objectFit="contain"/>
               },
               link: (e) => {
                 if (e.href.match("http")) {

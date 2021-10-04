@@ -34,7 +34,7 @@ class Header extends React.Component {
               </Link>
             </li>
             <li>
-              <Link href="/news">
+              <Link href="/#news">
                 <a>
                   <small>最新情報</small>News
                 </a>

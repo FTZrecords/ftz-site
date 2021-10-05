@@ -92,7 +92,18 @@ const Blog = ({ content, data }) => {
             components={{
               img: (e) => {
                 return (
-                  <Image src={e.src} alt={e.alt} height="200" width="355" />
+                  <div
+                    style={{ position: "relative", width: "100%", height: 230 }}
+                  >
+                    <Image
+                      src={e.src}
+                      alt={e.alt}
+                      decoding={"async"}
+                      loading={"lazy"}
+                      layout="fill"
+                      objectFit="contain"
+                    />
+                  </div>
                 );
               },
               link: (e) => {

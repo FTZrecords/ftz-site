@@ -39,3 +39,39 @@ Vocals, Lyrics by Kanbin
 Bass by Kuroji
 
 Artwork by ikuho tamura
+
+#### イベント情報
+
+東京定期便vol.45
+
+2021\.10.16(Sat.) 16:00-21:00
+
+@下北沢THREE
+
+door:¥1,500＋1D
+
+<LIVE>
+
+xiexie
+
+KOMONO LAKE
+
+<Guest DJ>
+
+YONEDA
+
+<DJ>
+
+hisabor
+
+にしかわ
+
+Yuto Kanai
+
+LINKS: 
+
+KOMONO LAKE
+
+Official Site: [https://komonolake.com/](https://komonolake.com/ "https://komonolake.com/")
+
+Twitter: [https://twitter.com/komono_lake](https://twitter.com/komono_lake "https://twitter.com/komono_lake")

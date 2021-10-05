@@ -103,7 +103,7 @@
         }
         &:hover{
             &+div+label::before {
-                content: "OPEN";
+                content: " MENU";
             }
         }
         &:checked{
@@ -157,6 +157,13 @@
     width: 100vw;
     margin: 0 calc(50% - 50vw);
     padding: 1rem calc(50vw - 50%);
+}
+.list_index {
+    display: flex;
+    flex-wrap:wrap;
+    li {
+        margin-bottom: 1rem;
+    }
 }
 .list_post {
     // width: 300px;
@@ -319,6 +326,10 @@
     transform: translate(-50%, -50%)
 }
 
-.top {
-    // width: 100vw;
+
+.member_list {
+    display: flex;
+    li {
+        margin-right: 2rem;
+    }
 }

@@ -1,7 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Head from "next/head";
+// import Head from "components/head";
+import Head from "components/head";
 
 import post from "styles/post.module.scss";
 
@@ -28,14 +29,12 @@ const Blog = ({ content, data }) => {
 
   return (
     <>
-      <Head>
-        <title key="title">{frontmatter.title}｜FTZine</title>
-        <meta
-          key="description"
-          name="description"
-          content={frontmatter.description}
-        ></meta>
-      </Head>
+
+      <Head
+        title={frontmatter.title + "｜FTZine"}
+        description={frontmatter.description}
+        image={frontmatter.tmb}
+      />
 
       <Header />
 

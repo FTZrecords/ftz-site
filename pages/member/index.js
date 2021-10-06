@@ -1,4 +1,5 @@
 import React from "react";
+// import Head from "components/head";
 import Head from "components/head";
 import matter from "gray-matter";
 import Link from "next/link";

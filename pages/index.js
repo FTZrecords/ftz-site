@@ -63,7 +63,7 @@ const Index = ({
         title="FTZine｜FTZrecords"
         description="FTZine｜FTZrecords"
         image={
-          "https://qiita-user-profile-images.imgix.net/https%3A%2F%2Flh3.googleusercontent.com%2F-BUmWankl_aQ%2FAAAAAAAAAAI%2FAAAAAAAADys%2F8oi87glPMLA%2Fphoto.jpg%3Fsz%3D50?ixlib=rb-1.2.2&auto=compress%2Cformat&lossless=0&w=300&s=649d309c71e365e6fc6d6b6d205c3710"
+          "https://zine.ftzrecords.com/ogp.png"
         }
       />
 

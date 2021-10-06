@@ -1,6 +1,6 @@
 ---
 title: Avipene、All I KNOWをリリース
-date: 2021-09-22T00:00:00+09:00
+date: 2021-09-22T00:00:00.000+09:00
 tmb: "/img/2021/10/04/unnamed.jpg"
 author: FTZ編集部
 description: Avipene（アビペネ）、オルタナティブ、トラップ、ポップ作品の「ALL I KNOW」をリリース。
@@ -14,7 +14,7 @@ Avipene（アビペネ）、オルタナティブ、トラップ、ポップ作�
 
 #### 楽曲情報
 
-![](/img/2021/10/04/ダウンロード.jpeg)
+![](/img/2021/10/04/ダウンロード.jpeg)
 
 「ALL I KNOW」
 

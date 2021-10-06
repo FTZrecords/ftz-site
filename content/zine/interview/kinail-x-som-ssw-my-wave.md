@@ -14,7 +14,7 @@ description: |-
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/E2gLPWGSe90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-##### **結成について**
+**結成について**
 
 ――今回、Kinailさんの方からSomさんへのラブコールで実現したコラボとのことですが、Somさんとしては今回のような合作は新しい試みなのでしょうか？
 

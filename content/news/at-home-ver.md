@@ -14,7 +14,7 @@ description: 久留米出身福岡在住で SSW として活動中の原口玲�
 
 10 月 1 日にBAR萬屋で行われるワンマンライブ「harapparemon vol.2」はコロナ渦で制限はあるがソールドアウト。
 
- 今後の彼女の活躍に期待である。
+今後の彼女の活躍に期待である。
 
 ![](/img/2021/10/06/原口玲花　プロフィール.jpg)
 
@@ -30,6 +30,6 @@ description: 久留米出身福岡在住で SSW として活動中の原口玲�
 
 各種SNS：
 
-[https://instagram.com/harapparemon?utm_medium=copy_link](https://instagram.com/harapparemon?utm_medium=copy_link "https://instagram.com/harapparemon?utm_medium=copy_link")
+[https://instagram.com/harapparemon](https://instagram.com/harapparemon "https://instagram.com/harapparemon")
 
-[https://twitter.com/harapparemon?s=21](https://instagram.com/harapparemon?utm_medium=copy_link "https://instagram.com/harapparemon?utm_medium=copy_link")
+[https://twitter.com/harapparemon](https://twitter.com/harapparemon "https://twitter.com/harapparemon")

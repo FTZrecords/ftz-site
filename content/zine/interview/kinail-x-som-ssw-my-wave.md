@@ -11,7 +11,9 @@ description: |-
 #### 大阪を拠点に活動するトラックメイカーKinailが、東京で活動するシンガーソングライターSomとコラボ作品“The Wave”をFTZrecordsからリリースした。
 
 #### 今回初コラボとなった二人に、合作に至る経緯や制作の過程、お互いに対して思うことなどを思う存分語っていただいた。
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/E2gLPWGSe90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ##### **結成について**
 
 ――今回、Kinailさんの方からSomさんへのラブコールで実現したコラボとのことですが、Somさんとしては今回のような合作は新しい試みなのでしょうか？
@@ -114,6 +116,8 @@ Som：絶対出さないので聞かない方がいいかなって思って触�
 
 Som：ミステリアスな感じが。笑
 
+![](/img/2021/10/06/itd646999.jpg)
+
 ##### **結成について**
 
 ――コラボっていうことで特に意識したことありますか？
@@ -129,6 +133,8 @@ Som：そうですね。「このトラックに絶対的ないいメロディ�
 Som：挑戦でしたね。笑
 
 Kinail：そうですね。笑
+
+![](/img/2021/10/06/exkf7z3viaesjls.jpeg)
 
 ##### **楽曲に込めた思い**
 

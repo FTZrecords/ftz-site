@@ -32,7 +32,7 @@ const Blog = ({ content, data }) => {
       <Head
         title={frontmatter.title + "｜FTZine"}
         description={frontmatter.description}
-        image={frontmatter.tmb}
+        image={"https://zine.ftzrecords.com" + frontmatter.tmb}
       />
 
       <Header />

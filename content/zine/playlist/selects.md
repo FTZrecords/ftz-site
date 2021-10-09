@@ -3,7 +3,7 @@ title: 黒田 selects
 date: 2021-10-09T00:00:00+09:00
 tmb: "/img/2021/10/09/vulfkuroda.jpg"
 author: FTZ編集部
-description: FTZ records
+description: 黒田 selects
 
 ---
 ![](/img/2021/10/09/vulfkuroda.jpg)

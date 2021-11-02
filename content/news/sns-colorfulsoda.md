@@ -28,6 +28,8 @@ ColorfulSodaオフィシャルECサイトにて　10/31(日）20：00～11/14(�
 
 ![](/img/2021/11/02/colorfulsoda.jpeg)
 
+![](/img/2021/11/02/colorfulsoda_kokuchi.jpeg)
+
 **「ColorfulSoda２」**
 
 商品詳細

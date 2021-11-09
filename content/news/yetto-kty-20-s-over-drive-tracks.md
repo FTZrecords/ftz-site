@@ -1,5 +1,5 @@
 ---
-title: 自転車デリバリードライバーから見た都市風景を描く ラッパーのYETTO,KTYによる初のアルバム 『20’s Over Drive Tracks』配信
+title: ラッパーのYETTO,KTYによる初のアルバム 『20’s Over Drive Tracks』配信
 date: 2021-11-09T21:00:00+09:00
 tmb: "/img/2021/11/09/a.JPG"
 author: FTZ編集部
@@ -16,7 +16,7 @@ description: ビートメーカー・ラッパーのYETTOと同じくラッパ�
 
 **女優・平山りのが主演するミュージックビデオも公開**
 
-■**『20’s Over Drive Tracks』**について
+■『20’s Over Drive Tracks』について
 
 2020年から21年にかけて、共に自転車デリバリーサービスで働いていたラッパーのYETTOとKTY（MONJU N CHIE、mizunotabibito）は、デリバリードライバーの現状について歌う楽曲“good driver”を、2020年12月の発表以降、社会情勢が変わるごとにアップデートしてリリースしてきた。
 
@@ -30,15 +30,12 @@ description: ビートメーカー・ラッパーのYETTOと同じくラッパ�
 
 Remixは自然派シティポップユニット・KOMONO LAKEのメンバーとしても知られるプロデューサーSKYTOPIAがトラックを手がけ、ミックス・マスタリングも行っている。
 
-  
 ![](/img/2021/11/09/remix-skytopia.jpg)
 
 （SKYTOPIA アーティスト写真)
 
-  
 また“Runnin”では、ウーバードライバーである監督がコロナ禍の東京を描くドキュメンタリー映画『東京自転車節』の同名主題歌『東京自転車節』（作詞・作曲：秋山周）を公式にサンプリングし、収録している。
 
-  
 ![](/img/2021/11/09/関係映画『東京自転車節』ビジュアル.jpeg)
 
 ※映画『東京自転車節』公式サイト
@@ -57,11 +54,11 @@ YETTO、KTYが新宿、渋谷、中野などでラップする姿と、女優・
 
 [https://youtu.be/HCFu2kx8BbY](https://youtu.be/HCFu2kx8BbY "https://youtu.be/HCFu2kx8BbY")
 
-■リリース形態について
+■リリース形態
 
 本作品は、Apple Music,Spotifyなど各種ストリーミング配信にて公開。
 
-公開日時は**2021年11月10日（水）0：00** となる。
+公開日時は**2021年11月10日（水）0:00** 。
 
 また、同時刻よりBandcampにて購入配信も開始。こちらについてはアルバム購入者特典として、YETTO、KTY、そして『東京自転車節』の青柳拓監督がアルバムを聴きながら対話するオーディオコメンタリー音源が付属する。
 
@@ -85,7 +82,7 @@ YETTO、KTYが新宿、渋谷、中野などでラップする姿と、女優・
 
 そして、聴きながら流れていく風景の中にひとりひとりの顔を見つけてくれたら嬉しいです。
 
-【音源情報】
+**【音源情報】**
 
 ![](/img/2021/11/09/ジャケット.jpg)
 
@@ -125,7 +122,6 @@ YETTO,KTY『20’s Over Drive Tracks』
 
 10\.good driver (SKYTOPIA Remix)
 
-  
 配信URL：
 
 ストリーミング配信 [https://big-up.style/jLWVjUOzQ9](https://big-up.style/jLWVjUOzQ9 "https://big-up.style/jLWVjUOzQ9")
@@ -144,7 +140,6 @@ YETTO,KTY『20’s Over Drive Tracks』
 
 （撮影：松田春樹）
 
-  
 ■YETTO プロフィール
 
 1995年生まれ。ビートメイカー。ラッパー。デリバリーサービス従業者。求職中。
@@ -159,7 +154,7 @@ YETTO,KTY『20’s Over Drive Tracks』
 
 ■関連リンク
 
-【YETTO】
+【**YETTO**】
 
 Mail :[yettomurder@gmail.com](mailto:yettomurder@gmail.com)
 
@@ -169,7 +164,7 @@ Twitter :[https://twitter.com/yetto_nakamura](https://www.instagram.com/yetto_na
 
 Bandcamp :[https://yetto.bandcamp.com/](https://www.instagram.com/yetto_nakamura "https://www.instagram.com/yetto_nakamura")
 
-【KTY】
+【**KTY**】
 
 Twitter :[https://twitter.com/yamadtakesi](https://www.instagram.com/yetto_nakamura "https://www.instagram.com/yetto_nakamura")
 

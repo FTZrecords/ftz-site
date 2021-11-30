@@ -1,5 +1,5 @@
 ---
-title: Fionn Milyが期待のニューシングル “Zero”をリリース
+title: Fionn Milyが期待のニューシングル“Zero”をリリース
 date: 2021-12-01T00:00:00+09:00
 tmb: "/img/2021/11/30/fionn-mily-zero.jpg"
 author: FTZ編集部

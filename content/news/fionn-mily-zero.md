@@ -24,6 +24,7 @@ Apple Music, Spotify, Prime Music, ほか各所配信サービスにて配信開
 ![](/img/2021/11/30/zero-mv-2.png)  
 Junnosuke ohba(大峡)が手掛けた、ミュージックビデオが同日20時からプレミア公開となる。
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1ucHp8eXmuM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Music Video : [https://youtu.be/1ucHp8eXmuM](https://youtu.be/1ucHp8eXmuM "https://youtu.be/1ucHp8eXmuM")
 
 ![](/img/2021/11/30/fionn-mily-zero.jpg)

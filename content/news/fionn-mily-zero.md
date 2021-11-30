@@ -9,7 +9,7 @@ description: '2020年初頭、彗星の如くシーンに現れた、新鋭ア�
 **2020年初頭、彗星の如くシーンに現れた、新鋭アーティストFionn Milyの期待のシングル”Zero”が12月1日にリリース。**
 
 ![](/img/2021/11/30/zero.jpg)  
-「Zero」
+**「Zero」**
 
 Artist: Fionn Mily
 
@@ -23,12 +23,12 @@ Apple Music, Spotify, Prime Music, ほか各所配信サービスにて配信開
 
 ![](/img/2021/11/30/zero-mv-2.png)  
 Junnosuke ohba(大峡)が手掛けた、ミュージックビデオが同日20時からプレミア公開となる。
-
-Music Video : [https://youtu.be/1ucHp8eXmuM](https://linkco.re/SaMhNfSv "https://linkco.re/SaMhNfSv")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1ucHp8eXmuM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Music Video : [https://youtu.be/1ucHp8eXmuM](https://youtu.be/1ucHp8eXmuM "https://youtu.be/1ucHp8eXmuM")
 
 ![](/img/2021/11/30/fionn-mily-zero.jpg)
 
-Fionn Mily
+**Fionn Mily**
 
 【SNS】
 

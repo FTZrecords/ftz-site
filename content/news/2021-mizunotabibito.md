@@ -20,7 +20,7 @@ description: エスニックなサンプリングサウンドが特徴。
 
 ![](/img/2021/12/02/image.jpeg)
 
-「文宝 -bunpa- 」
+「**文宝 -bunpa-** 」
 
 Music by mizunotabibito
 
@@ -66,7 +66,9 @@ So Ohashi
 
 ＜アーティスト情報＞
 
-mizunotabibito
+![](/img/2021/12/02/image.jpeg)
+
+**mizunotabibito**
 
 2021年に活動を開始。ICED COFFEE FILMS所属。
 

@@ -1,5 +1,5 @@
 ---
-title: 2021年始動の音楽ユニット「mizunotabibito」が「文宝」をリリース。
+title: 2021年始動の音楽ユニット「mizunotabibito」が「文宝」をリリース
 date: 2021-11-24T00:00:00+09:00
 tmb: "/img/2021/12/02/2021-10-30.jpg"
 author: FTZ編集部

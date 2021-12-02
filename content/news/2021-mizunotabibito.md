@@ -66,7 +66,7 @@ So Ohashi
 
 ＜アーティスト情報＞
 
-![](/img/2021/12/02/image.jpeg)
+![](/img/2021/12/02/2021-10-30.jpg)
 
 **mizunotabibito**
 

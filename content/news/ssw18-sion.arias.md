@@ -24,6 +24,8 @@ sion.というアーティストを表現する相応しい楽曲に仕上がっ
 
 1\. スモア
 
+iTunes Store・レコチョク・OTOTOY他主要配信サイト及び、Apple Music・Spotify・LINE MUSIC・Amazon Musicなど主要定額音楽ストリーミングサービスにて配信。
+
 【アーティスト情報】
 
 ![](/img/2021/12/24/a-_.JPG)

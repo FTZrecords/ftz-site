@@ -62,9 +62,7 @@ const Index = ({
       <Head
         title="FTZine｜FTZrecords"
         description="FTZine｜FTZrecords"
-        image={
-          "https://zine.ftzrecords.com/ogp.png"
-        }
+        image={"https://zine.ftzrecords.com/ogp.png"}
       />
 
       <Header />
@@ -101,31 +99,39 @@ const Index = ({
         </h2>
         <p className={index.h2_description}>FTZにまつわる最新情報をチョイス</p>
         <ul className={index.list}>
-          {newsListItems.map((news, i) => (
-            <li key={i} className={index.list_post}>
-              <Link href={`/news/${news.slug}`}>
-                <a>
-                  <div className={index.list_tmb}>
-                    <div className={index.list_img}>
-                      <Image
-                        src={news.tmb}
-                        alt={news.title + "のサムネイル"}
-                        height="160"
-                        width="300"
-                        objectFit={"cover"}
-                        decoding="async"
-                        loading="lazy"
-                      />
+          {newsListItems
+            .sort(function (a, b) {
+              if (a.date < b.date) {
+                return 1;
+              } else {
+                return -1;
+              }
+            })
+            .map((news, i) => (
+              <li key={i} className={index.list_post}>
+                <Link href={`/news/${news.slug}`}>
+                  <a>
+                    <div className={index.list_tmb}>
+                      <div className={index.list_img}>
+                        <Image
+                          src={news.tmb}
+                          alt={news.title + "のサムネイル"}
+                          height="160"
+                          width="300"
+                          objectFit={"cover"}
+                          decoding="async"
+                          loading="lazy"
+                        />
+                      </div>
+                      <h5 className={index.list_title}>
+                        <span>{news.title}</span>
+                      </h5>
                     </div>
-                    <h5 className={index.list_title}>
-                      <span>{news.title}</span>
-                    </h5>
-                  </div>
-                  <p className={index.list_description}>{news.description}</p>
-                </a>
-              </Link>
-            </li>
-          ))}
+                    <p className={index.list_description}>{news.description}</p>
+                  </a>
+                </Link>
+              </li>
+            ))}
         </ul>
 
         <h2 className={index.h2} id="interview">
@@ -135,33 +141,41 @@ const Index = ({
           新たな音楽に出会えるインタビュー記事
         </p>
         <ul className={index.list}>
-          {interviewListItems.map((interview, i) => (
-            <li key={i} className={index.list_post}>
-              <Link href={`/zine/interview/${interview.slug}`}>
-                <a>
-                  <div className={index.list_tmb}>
-                    <div className={index.list_img}>
-                      <Image
-                        src={interview.tmb}
-                        alt={interview.title + "のサムネイル"}
-                        height="160"
-                        width="300"
-                        objectFit={"cover"}
-                        decoding="async"
-                        loading="lazy"
-                      />
+          {interviewListItems
+            .sort(function (a, b) {
+              if (a.date < b.date) {
+                return 1;
+              } else {
+                return -1;
+              }
+            })
+            .map((interview, i) => (
+              <li key={i} className={index.list_post}>
+                <Link href={`/zine/interview/${interview.slug}`}>
+                  <a>
+                    <div className={index.list_tmb}>
+                      <div className={index.list_img}>
+                        <Image
+                          src={interview.tmb}
+                          alt={interview.title + "のサムネイル"}
+                          height="160"
+                          width="300"
+                          objectFit={"cover"}
+                          decoding="async"
+                          loading="lazy"
+                        />
+                      </div>
+                      <h5 className={index.list_title}>
+                        <span>{interview.title}</span>
+                      </h5>
                     </div>
-                    <h5 className={index.list_title}>
-                      <span>{interview.title}</span>
-                    </h5>
-                  </div>
-                  <p className={index.list_description}>
-                    {interview.description}
-                  </p>
-                </a>
-              </Link>
-            </li>
-          ))}
+                    <p className={index.list_description}>
+                      {interview.description}
+                    </p>
+                  </a>
+                </Link>
+              </li>
+            ))}
         </ul>
 
         <h2 className={index.h2} id="column">
@@ -169,31 +183,41 @@ const Index = ({
         </h2>
         <p className={index.h2_description}>様々な角度から連載コラム</p>
         <ul className={index.list}>
-          {columnListItems.map((column, i) => (
-            <li key={i} className={index.list_post}>
-              <Link href={`/zine/column/${column.slug}`}>
-                <a>
-                  <div className={index.list_tmb}>
-                    <div className={index.list_img}>
-                      <Image
-                        src={column.tmb}
-                        alt={column.title + "のサムネイル"}
-                        height="160"
-                        width="300"
-                        objectFit={"cover"}
-                        decoding="async"
-                        loading="lazy"
-                      />
+          {columnListItems
+            .sort(function (a, b) {
+              if (a.date < b.date) {
+                return 1;
+              } else {
+                return -1;
+              }
+            })
+            .map((column, i) => (
+              <li key={i} className={index.list_post}>
+                <Link href={`/zine/column/${column.slug}`}>
+                  <a>
+                    <div className={index.list_tmb}>
+                      <div className={index.list_img}>
+                        <Image
+                          src={column.tmb}
+                          alt={column.title + "のサムネイル"}
+                          height="160"
+                          width="300"
+                          objectFit={"cover"}
+                          decoding="async"
+                          loading="lazy"
+                        />
+                      </div>
+                      <h5 className={index.list_title}>
+                        <span>{column.title}</span>
+                      </h5>
                     </div>
-                    <h5 className={index.list_title}>
-                      <span>{column.title}</span>
-                    </h5>
-                  </div>
-                  <p className={index.list_description}>{column.description}</p>
-                </a>
-              </Link>
-            </li>
-          ))}
+                    <p className={index.list_description}>
+                      {column.description}
+                    </p>
+                  </a>
+                </Link>
+              </li>
+            ))}
         </ul>
 
         <h2 className={index.h2} id="playlist">
@@ -201,61 +225,75 @@ const Index = ({
         </h2>
         <p className={index.h2_description}>次世代のキュレーターが紹介</p>
         <ul className={index.list}>
-          {playlistListItems.map((playlist, i) => (
-            <li key={i} className={index.list_post}>
-              <Link href={`/zine/playlist/${playlist.slug}`}>
-                <a>
-                  <div className={index.list_tmb}>
-                    <div className={index.list_img}>
-                      <Image
-                        src={playlist.tmb}
-                        alt={playlist.title + "のサムネイル"}
-                        height="160"
-                        width="300"
-                        objectFit={"cover"}
-                        decoding="async"
-                        loading="lazy"
-                      />
+          {playlistListItems
+            .sort(function (a, b) {
+              if (a.date < b.date) {
+                return 1;
+              } else {
+                return -1;
+              }
+            })
+            .map((playlist, i) => (
+              <li key={i} className={index.list_post}>
+                <Link href={`/zine/playlist/${playlist.slug}`}>
+                  <a>
+                    <div className={index.list_tmb}>
+                      <div className={index.list_img}>
+                        <Image
+                          src={playlist.tmb}
+                          alt={playlist.title + "のサムネイル"}
+                          height="160"
+                          width="300"
+                          objectFit={"cover"}
+                          decoding="async"
+                          loading="lazy"
+                        />
+                      </div>
+                      <h5 className={index.list_title}>
+                        <span>{playlist.title}</span>
+                      </h5>
                     </div>
-                    <h5 className={index.list_title}>
-                      <span>{playlist.title}</span>
-                    </h5>
-                  </div>
-                  <p className={index.list_description}>
-                    {playlist.description}
-                  </p>
-                </a>
-              </Link>
-            </li>
-          ))}
+                    <p className={index.list_description}>
+                      {playlist.description}
+                    </p>
+                  </a>
+                </Link>
+              </li>
+            ))}
         </ul>
 
         <h2 className={index.h2}>
           Writer<small>　ライター</small>
         </h2>
         <ul>
-          {memberListItems.map((member, i) => (
-            <li key={i} className={index.artist_list}>
-              <Link href={`/member/${member.slug}`}>
-                <a>
-                  <div className={index.artist_img}>
-                    <Image
-                      src={member.tmb}
-                      alt={member.title + "のサムネイル"}
-                      height="160"
-                      width="160"
-                      objectFit={"cover"}
-                      decoding="async"
-                      loading="lazy"
-                    />
-                  </div>
-                  <h5 className={index.artist_title}>
-                    <span>{member.title}</span>
-                  </h5>
-                </a>
-              </Link>
-            </li>
-          ))}
+          {memberListItems.map((member, i) => {
+            let img = "https://placehold.jp/160x160.png";
+            if (member.tmb) {
+              img = member.tmb;
+            }
+            return (
+              <li key={i} className={index.artist_list}>
+                <Link href={`/member/${member.slug}`}>
+                  <a>
+                    <div className={index.artist_img}>
+                      <Image
+                        src={img}
+                        alt={member.title + "のサムネイル"}
+                        height="160"
+                        width="160"
+                        objectFit={"cover"}
+                        decoding="async"
+                        loading="lazy"
+                      />
+                    </div>
+                    <h5 className={index.artist_title}>
+                      <span>{member.title}</span>
+                    </h5>
+                  </a>
+                </Link>
+              </li>
+            );
+          })}
         </ul>
       </main>
 

@@ -63,14 +63,13 @@ CAIVVASの松坂勇介（Gt）が1月29日（土）に下北沢DaisyBarで開催
 
 釜瀨雄也（Gt）
 
-  
 ![](/img/2022/01/07/unnamed.jpg)
 
 【ライブ詳細】
 
 1/29(sat)
 
- ＜mirrorball weekend＞
+＜mirrorball weekend＞
 
 CAIVVAS
 

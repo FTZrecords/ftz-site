@@ -1,6 +1,6 @@
 ---
-title: CAIVVASの松坂勇介、DaisyBarでのライブをもってバンドを脱退を発表
-date: 2022-01-07T00:00:00+09:00
+title: CAIVVAS松坂勇介DaisyBarでのライブをもってバンドを脱退を発表
+date: 2022-01-07T00:00:00.000+09:00
 tmb: "/img/2022/01/07/unnamed.jpg"
 author: FTZ編集部
 description: CAIVVASの松坂勇介（Gt）が1月29日（土）に下北沢DaisyBarで開催するライブをもってバンドを脱退することを発表した。

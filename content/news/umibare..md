@@ -1,5 +1,5 @@
 ---
-title: かふ、新プロジェクト「Umibare.」始動
+title: 'かふ、新プロジェクト「Umibare.」始動 '
 date: 2022-01-24T00:00:00+09:00
 tmb: "/img/2022/01/23/a.JPG"
 author: FTZ編集部

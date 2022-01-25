@@ -92,12 +92,12 @@ iTunes Store・レコチョク・OTOTOY他主要配信サイト及び、Apple Mu
 
 いまならいえるのにな
 
-＜MV情報＞
+**＜MV情報＞**
 
 YouTube
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qW2s8sCCsjg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-【アーティスト情報】
+**【アーティスト情報】**
 
 ![](/img/2022/01/25/viaa-_.jpg)
 

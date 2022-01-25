@@ -1,7 +1,7 @@
 ---
 title: かふ、新プロジェクト「Umibare.」始動
 date: 2022-01-26T20:00:00+09:00
-tmb: "/img/2022/01/25/a.JPG"
+tmb: "/img/2022/01/23/a.JPG"
 author: FTZ編集部
 description: 1月26日（水） 1st. Single 『 Uterus 』リリースと共に始動。
 

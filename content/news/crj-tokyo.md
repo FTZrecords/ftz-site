@@ -1,5 +1,5 @@
 ---
-title: CRJ TOKYO、来年度のスタッフ募集開始
+title: CRJ TOKYO 来年度のスタッフ募集開始
 date: 2022-01-01T00:00:00+09:00
 tmb: "/img/2022/01/25/_2021_04_20_100236_negate.png"
 author: FTZ編集部

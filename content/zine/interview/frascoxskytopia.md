@@ -12,8 +12,6 @@ description: メタポップ・プロジェクトとして活動するFrascoと�
 
 \[SKYTOPIA→ス, タカノシンヤ(Frasco)→シ, 峰らる(Frasco)→峰\]
 
-　
-
 **ー自己紹介お願い致します。**
 
 ス：私はサウンドプロデューサーのSKYTOPIAと申します。夢と現実の間をテーマに曲を作っていて、今回Frascoとコラボしました。
@@ -21,8 +19,6 @@ description: メタポップ・プロジェクトとして活動するFrascoと�
 シ：Frascoのタカノシンヤです。Frascoも同じように現実と非現実のミックスというテーマで活動してて、そこらへんのテーマがSKYTOPIAと共鳴して、割といい感じの作品ができたんじゃないかなと思っています。僕は主にトラックや作詞作曲をやってます。
 
 峰：こんにちは、峰らるです。Frascoでボーカルとグラフィックデザインを担当してます。
-
-　
 
 **ーよろしくお願い致します。まず改めてアルバムのテーマについて教えてください。**
 
@@ -50,8 +46,6 @@ description: メタポップ・プロジェクトとして活動するFrascoと�
 
 峰：そうそう、Apple Musicとか、結構トップ画面を占領しちゃうから、お互いのアーティストイメージの中で被ってる部分を意識して作りました。
 
-　
-
 ー確かに、色味がそこに近い印象がありました
 
 シ：SKYTOPIA感もFrasco感も感じるというかね
@@ -72,8 +66,6 @@ description: メタポップ・プロジェクトとして活動するFrascoと�
 
 全員：思い出して(笑)
 
-　
-
 **ー音源が具体的にどうUNNATURALなのかという話もお伺いしたいです。**
 
 ス：一般の曲って結構主観的で、エネルギーとかをうちにあるものから出してるって曲が多いと思う。ただ、うちらの場合なんらかの現象を表現している曲が多いんだよね。トピックを選んで歌ってて。そこがポップというカルチャーの中でUNNATURALな部分になってる。やっぱり例えばケンモチヒデフミさん的な手法からすごくうちら3人とも影響受けてるからと感じた。唯一Love Storyが恋愛の曲かなって思われがちだけど、これも「Love」「Story」と俯瞰してトピックにしちゃってるんだよね。「MAD」も窓について歌ってるところがあるし。あと、スタイルもかっこいいのかダサいのかわからない曲が多いよね。エレキギター鳴ってたり変な音ポヨンて入ってたり。
@@ -88,13 +80,9 @@ description: メタポップ・プロジェクトとして活動するFrascoと�
 
 峰：シンヤくんの歌詞が元々そうかも、Frasco自体が。
 
-　
-
 ーなんかそう思うと、UNNとかは、最初はそういう印象があるのに、特徴的なUNNから始まったら急に客観的になるっていうか、割と最初は会話してる感じというか思い出とかもあるのかな？って思うけど、急にUNNのところで「そういうことか！」みたいな
 
 シ：会話が始まってるというか
-
-　
 
 ー会話ってなんなんだろうなって思うもんな、逆に客観的な立場にいると
 
@@ -162,15 +150,11 @@ description: メタポップ・プロジェクトとして活動するFrascoと�
 
 ス：ありがとうございます
 
-　
-
 ー中心のカルチャーでそれがやれるのは
 
 ス：まあでも日本にもいろんなアーティストが、そういうことやってる気がします。tofubeatsさんとか中田ヤスタカさんとかを中心として
 
 シ：あとね、中村佳穂さんとか、長谷川白紙さんとか、いろんなことにチャレンジしてる人はその中でもいると思う
-
-　
 
 ー音楽だから表現だから言語とか、絵とかと同じような感覚で居ないといけないから、それは必ずしも感情とかに結びつくものだけだとよくないというか。それがチャートの中心に多すぎるな、という印象がある中で淡々と記録のように残していく音楽がちゃんと認められてきかれてるというのが面白いことだなっていうので印象に残りました。
 
@@ -182,13 +166,7 @@ description: メタポップ・プロジェクトとして活動するFrascoと�
 
 シ：そんな感じがするね
 
-　
-
-　
-
 **一つの区切りとして発売された本作から今後どのようなニューエレクトロニカが生まれていくのか、注目のアーティストである。**
-
-　
 
 **【リリース情報】**
 
@@ -197,9 +175,8 @@ description: メタポップ・プロジェクトとして活動するFrascoと�
 リリース形態：デジタルリリース  
 アーティスト：SKYTOPIA × Frasco  
 アルバム名：UNNATURAL  
-レーベル：Toro Toro Sounds
-
-　
+レーベル：Toro Toro Sounds  
+配信サイト：[https://big-up.style/7duqcGYKx3](https://big-up.style/7duqcGYKx3 "https://big-up.style/7duqcGYKx3")
 
 **【アーティスト情報】**
 
@@ -217,7 +194,6 @@ YouTube：[https://www.youtube.com/channel/UCNtgMiup6PztEtxrQEqhSTg](https://www
 
 SoundCloud：[https://soundcloud.com/skytopia](https://soundcloud.com/skytopia "https://soundcloud.com/skytopia")
 
-　  
 ![](/img/2022/02/12/ダウンロード.jpeg)  
 **Frasco**
 
@@ -236,5 +212,3 @@ Twitter：[https://twitter.com/FrascoTTS](https://twitter.com/FrascoTTS "https:/
 YouTube：[https://www.youtube.com/c/FrascoTTS-p](https://www.youtube.com/c/FrascoTTS-p "https://www.youtube.com/c/FrascoTTS-p")
 
 SoundCloud：[https://soundcloud.com/frascotts](https://soundcloud.com/frascotts "https://soundcloud.com/frascotts")
-
-　　

@@ -188,6 +188,8 @@ description: メタポップ・プロジェクトとして活動するFrascoと�
 
 **一つの区切りとして発売された本作から今後どのようなニューエレクトロニカが生まれていくのか、注目のアーティストである。**
 
+　
+
 **【リリース情報】**
 
 ![](/img/2022/02/12/c08c3bd8-3ed2-4427-bc19-0427731afba2.jpeg)  
@@ -196,6 +198,8 @@ description: メタポップ・プロジェクトとして活動するFrascoと�
 アーティスト：SKYTOPIA × Frasco  
 アルバム名：UNNATURAL  
 レーベル：Toro Toro Sounds
+
+　
 
 **【アーティスト情報】**
 
@@ -213,6 +217,7 @@ YouTube：[https://www.youtube.com/channel/UCNtgMiup6PztEtxrQEqhSTg](https://www
 
 SoundCloud：[https://soundcloud.com/skytopia](https://soundcloud.com/skytopia "https://soundcloud.com/skytopia")
 
+　  
 ![](/img/2022/02/12/ダウンロード.jpeg)  
 **Frasco**
 

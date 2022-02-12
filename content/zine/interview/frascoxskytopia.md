@@ -6,13 +6,13 @@ author: FTZ編集部
 description: メタポップ・プロジェクトとして活動するFrascoと、夢と現実の狭間を追求する音楽プロデューサーSKYTOPIAによるコラボアルバム、『UNNATURAL』がリリースされて、2/10でちょうど三ヶ月となった。個人的にも2021年に出たアルバムで最も気になった作品の一つで、何度も聞かせて頂いている。このタイミングで再度本人達に作品についてインタビューしてみた。
 
 ---
-文: Ryosuke Akagane　編集: Ryosuke Akagane, Hajime Takatsuki 
+文: Ryosuke Akagane　編集: Ryosuke Akagane, Hajime Takatsuki
 
 **メタポップ・プロジェクトとして活動するFrascoと、夢と現実の狭間を追求する音楽プロデューサーSKYTOPIAによるコラボアルバム、『UNNATURAL』がリリースされて、2/10でちょうど三ヶ月となった。個人的にも2021年に出たアルバムで最も気になった作品の一つで、何度も聞かせて頂いている。このタイミングで再度本人達に作品についてインタビューしてみた。**
 
 \[SKYTOPIA→ス, タカノシンヤ(Frasco)→シ, 峰らる(Frasco)→峰\]
 
- 
+　
 
 **ー自己紹介お願い致します。**
 
@@ -22,7 +22,7 @@ description: メタポップ・プロジェクトとして活動するFrascoと�
 
 峰：こんにちは、峰らるです。Frascoでボーカルとグラフィックデザインを担当してます。
 
- 
+　
 
 **ーよろしくお願い致します。まず改めてアルバムのテーマについて教えてください。**
 
@@ -50,7 +50,9 @@ description: メタポップ・プロジェクトとして活動するFrascoと�
 
 峰：そうそう、Apple Musicとか、結構トップ画面を占領しちゃうから、お互いのアーティストイメージの中で被ってる部分を意識して作りました。
 
-赤：確かに、色味がそこに近い印象がありました
+　
+
+ー確かに、色味がそこに近い印象がありました
 
 シ：SKYTOPIA感もFrasco感も感じるというかね
 
@@ -70,7 +72,7 @@ description: メタポップ・プロジェクトとして活動するFrascoと�
 
 全員：思い出して(笑)
 
- 
+　
 
 **ー音源が具体的にどうUNNATURALなのかという話もお伺いしたいです。**
 
@@ -86,11 +88,15 @@ description: メタポップ・プロジェクトとして活動するFrascoと�
 
 峰：シンヤくんの歌詞が元々そうかも、Frasco自体が。
 
-赤：なんかそう思うと、UNNとかは、最初はそういう印象があるのに、特徴的なUNNから始まったら急に客観的になるっていうか、割と最初は会話してる感じというか思い出とかもあるのかな？って思うけど、急にUNNのところで「そういうことか！」みたいな
+　
+
+ーなんかそう思うと、UNNとかは、最初はそういう印象があるのに、特徴的なUNNから始まったら急に客観的になるっていうか、割と最初は会話してる感じというか思い出とかもあるのかな？って思うけど、急にUNNのところで「そういうことか！」みたいな
 
 シ：会話が始まってるというか
 
-赤：会話ってなんなんだろうなって思うもんな、逆に客観的な立場にいると
+　
+
+ー会話ってなんなんだろうなって思うもんな、逆に客観的な立場にいると
 
 シ：あれ作った時の話とかは？UNNの話
 
@@ -103,8 +109,6 @@ description: メタポップ・プロジェクトとして活動するFrascoと�
 全員：（笑）
 
 ス：第二に、できたとしても恥ずかしいっていうのがあるんだよね
-
-赤：（笑）
 
 ス：格好いい音楽を作りたくてガチで目指しちゃったみたいな姿勢が恥ずかしくて。山椒みたいなのを加えて、格好いい音楽をやってるけど、お笑いもやってるよみたいなのを出した方が気が楽なんだよね
 
@@ -158,11 +162,15 @@ description: メタポップ・プロジェクトとして活動するFrascoと�
 
 ス：ありがとうございます
 
+　
+
 ー中心のカルチャーでそれがやれるのは
 
 ス：まあでも日本にもいろんなアーティストが、そういうことやってる気がします。tofubeatsさんとか中田ヤスタカさんとかを中心として
 
 シ：あとね、中村佳穂さんとか、長谷川白紙さんとか、いろんなことにチャレンジしてる人はその中でもいると思う
+
+　
 
 ー音楽だから表現だから言語とか、絵とかと同じような感覚で居ないといけないから、それは必ずしも感情とかに結びつくものだけだとよくないというか。それがチャートの中心に多すぎるな、という印象がある中で淡々と記録のように残していく音楽がちゃんと認められてきかれてるというのが面白いことだなっていうので印象に残りました。
 
@@ -174,11 +182,11 @@ description: メタポップ・プロジェクトとして活動するFrascoと�
 
 シ：そんな感じがするね
 
- 
+　
+
+　
 
 **一つの区切りとして発売された本作から今後どのようなニューエレクトロニカが生まれていくのか、注目のアーティストである。**
-
- 
 
 **【リリース情報】**
 
@@ -188,8 +196,6 @@ description: メタポップ・プロジェクトとして活動するFrascoと�
 アーティスト：SKYTOPIA × Frasco  
 アルバム名：UNNATURAL  
 レーベル：Toro Toro Sounds
-
- 
 
 **【アーティスト情報】**
 
@@ -206,8 +212,6 @@ Twitter：[https://twitter.com/_skytopia_?lang=en](https://twitter.com/_skytopia
 YouTube：[https://www.youtube.com/channel/UCNtgMiup6PztEtxrQEqhSTg](https://www.youtube.com/channel/UCNtgMiup6PztEtxrQEqhSTg "https://www.youtube.com/channel/UCNtgMiup6PztEtxrQEqhSTg")
 
 SoundCloud：[https://soundcloud.com/skytopia](https://soundcloud.com/skytopia "https://soundcloud.com/skytopia")
-
- 
 
 ![](/img/2022/02/12/ダウンロード.jpeg)  
 **Frasco**
@@ -227,5 +231,3 @@ Twitter：[https://twitter.com/FrascoTTS](https://twitter.com/FrascoTTS "https:/
 YouTube：[https://www.youtube.com/c/FrascoTTS-p](https://www.youtube.com/c/FrascoTTS-p "https://www.youtube.com/c/FrascoTTS-p")
 
 SoundCloud：[https://soundcloud.com/frascotts](https://soundcloud.com/frascotts "https://soundcloud.com/frascotts")
-
- 

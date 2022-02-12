@@ -194,7 +194,10 @@ YouTube：[https://www.youtube.com/channel/UCNtgMiup6PztEtxrQEqhSTg](https://www
 
 SoundCloud：[https://soundcloud.com/skytopia](https://soundcloud.com/skytopia "https://soundcloud.com/skytopia")
 
-![](/img/2022/02/12/ダウンロード.jpeg)  
+　
+
+![](/img/2022/02/12/frasco_sapporo200714_fix-scaled.jpeg)
+
 **Frasco**
 
 Twitterで30万いいねを超えるバズツイートを連発するコンポーザー「タカノシンヤ」と、デザインから開発までマルチにこなすボーカル「峰らる」による、現実と非現実のミックスをコンセプトにした音楽プロジェクト。日本語のレトリックに拘ったエレクトロポップやシンセウェイブの独自解釈といえるような楽曲をリリースし、CM・イベントのテーマソング制作も行う。

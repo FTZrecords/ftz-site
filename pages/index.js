@@ -308,24 +308,6 @@ export async function getStaticProps() {
   const siteData = await import(`config.json`);
   const fs = require("fs");
 
-  const sliderList = [
-    "zine/interview/kinail-x-som-ssw-my-wave.md",
-    "zine/column/chooning.md",
-    "zine/playlist/ftzone.md",
-  ];
-  const sliderData = sliderList.map((slider) => {
-    const sliderRawContent = fs.readFileSync(`content/${slider}`, {
-      encoding: "utf-8",
-    });
-    const sliderEditedContent =
-      sliderRawContent.slice(0, 3) +
-      "\nslug: " +
-      { slider }.slider.slice(0, -3) +
-      "\n" +
-      sliderRawContent.slice(3);
-    return sliderEditedContent;
-  });
-
   const newss = fs
     .readdirSync(`content/news`, "utf-8")
     .filter((fn) => fn.endsWith(".md"));
@@ -406,6 +388,45 @@ export async function getStaticProps() {
       "\n" +
       memberRawContent.slice(3);
     return memberEditedContent;
+  });
+
+  const columnListItems = columnData
+    .map((column) => matter(column))
+    .map((columnListItem) => columnListItem.data)
+    .sort(function (a, b) {
+      if (a.date < b.date) {
+        return 1;
+      } else {
+        return -1;
+      }
+    });
+  const playlistListItems = playlistData
+    .map((playlist) => matter(playlist))
+    .map((playlistListItem) => playlistListItem.data)
+    .sort(function (a, b) {
+      if (a.date < b.date) {
+        return 1;
+      } else {
+        return -1;
+      }
+    });
+  const sliderList = [
+    "zine/interview/kinail-x-som-ssw-my-wave",
+    "zine/column/" + columnListItems[0].slug,
+    "zine/playlist/" + playlistListItems[0].slug,
+  ];
+  console.log(columnListItems[0].slug);
+  const sliderData = sliderList.map((slider) => {
+    const sliderRawContent = fs.readFileSync(`content/${slider}.md`, {
+      encoding: "utf-8",
+    });
+    const sliderEditedContent =
+      sliderRawContent.slice(0, 3) +
+      "\nslug: " +
+      { slider }.slider.slice(0, -3) +
+      "\n" +
+      sliderRawContent.slice(3);
+    return sliderEditedContent;
   });
 
   return {

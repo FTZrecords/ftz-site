@@ -390,6 +390,16 @@ export async function getStaticProps() {
     return memberEditedContent;
   });
 
+  const interviewListItems = interviewData
+    .map((interview) => matter(interview))
+    .map((interviewListItem) => interviewListItem.data)
+    .sort(function (a, b) {
+      if (a.date < b.date) {
+        return 1;
+      } else {
+        return -1;
+      }
+    });
   const columnListItems = columnData
     .map((column) => matter(column))
     .map((columnListItem) => columnListItem.data)
@@ -411,11 +421,10 @@ export async function getStaticProps() {
       }
     });
   const sliderList = [
-    "zine/interview/kinail-x-som-ssw-my-wave",
+    "zine/interview/" + interviewListItems[0].slug,
     "zine/column/" + columnListItems[0].slug,
     "zine/playlist/" + playlistListItems[0].slug,
   ];
-  console.log(columnListItems[0].slug);
   const sliderData = sliderList.map((slider) => {
     const sliderRawContent = fs.readFileSync(`content/${slider}.md`, {
       encoding: "utf-8",

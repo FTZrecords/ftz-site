@@ -11,6 +11,8 @@ description: 2月23日（水）、音楽ユニット「mizunotabibito」が2nd�
 
 コロナ禍で生活が多様化し環境が変わっていく中、思うようにいかないこともあっただろう。そんな時に、遊び心が散りばめられたこの曲、ぜひ必聴。
 
+　
+
 ＜楽曲情報＞
 
 ![](/img/2022/02/25/mizunotabibito_.jpg)  
@@ -33,6 +35,10 @@ Apple music：[https://music.apple.com/jp/album/%E3%81%97%E3%81%8B%E3%81%9F%E3%8
 ヒカリ
 
 Instagram：[https://www.instagram.com/you_dofu_/](https://www.instagram.com/you_dofu_/ "https://www.instagram.com/you_dofu_/")
+
+　
+
+＜アーティスト情報＞
 
 ![](/img/2021/12/02/2021-10-30.jpg)
 

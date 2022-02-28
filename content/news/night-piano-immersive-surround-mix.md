@@ -15,7 +15,9 @@ Dolby Atmos仕様の空間オーディオ対応で制作した「Night Piano (Im
 
 アコースティック楽器と電子楽器のサウンドが心地よく融合し、ラグジュアリーなサウンドに仕上がっている。上から音が降ってくるリアルな3Dサウンドをヘッドフォンで味わって欲しい。
 
-木村は2022年、毎月配信作品を空間オーディオ対応でリリースし、秋には1stソロアルバムのリリースを予定している。
+木村は2022年、毎月配信作品を空間オーディオ対応でリリースし、秋には1stソロアルバムのリリースを予定している。  
+  
+　　　
 
 【楽曲情報】
 
@@ -49,6 +51,8 @@ YouTube
 
 Ryo Kimura - Night Piano (Immersive Surround Mix) (Audio)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QO4jyFlfcdE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+　　　
 
 【アーティスト情報】
 

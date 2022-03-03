@@ -1,6 +1,6 @@
 ---
 title: 福岡在住のビートメーカーLILZAM 「Cooking tape Vol.1」をリリース。
-date: 2022-03-03T20:00:00+09:00
+date: 2022-03-03T19:00:00+09:00
 tmb: "/img/2022/03/03/image0.png"
 author: FTZ編集部
 description: 福岡県在住のビートメーカーLILZAMが2022年3月16日（水）に『Cooking tape Vol.1』をリリースする。

@@ -1,5 +1,5 @@
 ---
-title: YETTO、"u.tu.tsu Feat.MCビル風"をBandcamp・Soundcloudリリース。
+title: YETTO、u.tu.tsu Feat.MCビル風 をBandcamp・Soundcloudリリース。
 date: 2022-03-05T00:00:00+09:00
 tmb: "/img/2022/03/04/yetto-a.JPG"
 author: FTZ編集部

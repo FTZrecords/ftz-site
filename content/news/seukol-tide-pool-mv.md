@@ -3,10 +3,10 @@ title: Seukol 新曲「Tide Pool」のMVを公開
 date: 2022-03-26T00:00:00+09:00
 tmb: "/img/2022/03/26/seukol-artistphito.jpg"
 author: FTZ編集部
-description: Seukolの新曲「Tide Pool」のミュージックビデオがYouTubeで公開された。「Tide Pool」は本日3月23日にリリースした楽曲。
+description: Seukolの新曲「Tide Pool」のミュージックビデオがYouTubeで公開された。「Tide Pool」は3月23日にリリースした楽曲。
 
 ---
-Seukolの新曲「Tide Pool」のミュージックビデオがYouTubeで公開された。「Tide Pool」は本日3月23日にリリースした楽曲。メンバー共通のバックボーンとして挙げているインディーロックを彷彿とさせるような楽曲に仕上がっており、ストレートで爽やかなギターロックを表現している。
+Seukolの新曲「Tide Pool」のミュージックビデオがYouTubeで公開された。「Tide Pool」は3月23日にリリースした楽曲。メンバー共通のバックボーンとして挙げているインディーロックを彷彿とさせるような楽曲に仕上がっており、ストレートで爽やかなギターロックを表現している。
 
 MVでは90年代の邦ロックバンドの映像を随所でオマージュしており、皆様ズパラダイスが監督を務めた。
 

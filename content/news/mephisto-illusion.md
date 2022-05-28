@@ -14,6 +14,6 @@ description: 大学生ラッパーのMephistoが5月28日にアルバム「illus
 
 〈配信リンク〉
 
-    https://linkco.re/QtzDg4p8
+[https://linkco.re/QtzDg4p8?lang=ja](https://linkco.re/QtzDg4p8?lang=ja "https://linkco.re/QtzDg4p8?lang=ja")
 
 ![](/img/2022/05/28/1653742215078.jpg)

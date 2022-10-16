@@ -1,5 +1,5 @@
 ---
-title: BOY MELO WORLD & ROBOのコラボレーション楽曲「Crisis」2022年9月8日(木)リリース決定
+title: BOY MELO WORLD & ROBOのコラボレーション楽曲「Crisis」リリース
 date: 2022-08-29T20:00:00+09:00
 tmb: "/img/2022/09/01/artwork.JPG"
 author: FTZ編集部

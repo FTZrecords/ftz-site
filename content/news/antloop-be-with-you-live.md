@@ -43,7 +43,7 @@ YouTubeチャンネル：[https://youtube.com/channel/UCUfOgjuAt8gmqi53VqmJOYA](
 
 （[https://twitter.com/marutino_?s=21&t=MVumdc4CMB46K3u43o5QpQ](https://twitter.com/marutino_?s=21&t=MVumdc4CMB46K3u43o5QpQ "https://twitter.com/marutino_?s=21&t=MVumdc4CMB46K3u43o5QpQ")）
 
-**【アーティスト情報】**
+### **【アーティスト情報】**
 
 ![](/img/2022/11/23/2.PNG)
 
